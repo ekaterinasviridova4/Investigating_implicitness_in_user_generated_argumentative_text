@@ -190,7 +190,7 @@ def parse_args():
                        default='mistral-7b',
                        help='Model to finetune: mistral-7b or llama-8b')
     parser.add_argument('--data_dir', type=str, 
-                       default='combined_imp_exp_jsonl',
+                       default='data/jsonl/combined_imp_exp',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                        default=None,

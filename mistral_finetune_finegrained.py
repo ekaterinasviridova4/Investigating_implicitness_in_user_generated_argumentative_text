@@ -140,7 +140,7 @@ def setup_model_with_lora():
 def parse_args():
     parser = argparse.ArgumentParser(description='fine-tune fine-grained classification (Implicature, Ambiguity, Presupposition, Explicit) using Mistral')
     parser.add_argument('--data_dir', type=str, 
-                       default='combined_finegrained_jsonl',
+                       default='data/jsonl/combined_finegrained',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                        default='results_combined_finetune_finegrained',
