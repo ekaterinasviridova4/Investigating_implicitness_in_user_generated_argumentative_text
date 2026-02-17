@@ -137,7 +137,7 @@ def setup_model_with_lora():
 def parse_args():
     parser = argparse.ArgumentParser(description='fine-tune binary classification using Mistral')
     parser.add_argument('--data_dir', type=str, 
-                       default='out_combined_binary_jsonl',
+                       default='combined_imp_exp_jsonl',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                        default='results_combined_finetune_binary',

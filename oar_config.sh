@@ -29,10 +29,10 @@ OAR_OUT=$(oarsub \
      source /home/esvirido/miniconda3/bin/activate /home/esvirido/miniconda3/envs/llm-env; \
      echo 'Starting Mistral classification...'; \
      python3 mistral_finetune_binary.py \
-        --data_dir out_jsonl \
+        --data_dir cmv_imp_exp_jsonl \
         --output_dir results_finetune_binary; \
      python3 evaluate_mistral_finetuned_binary.py \
-        --data_dir out_jsonl \
+        --data_dir cmv_imp_exp_jsonl \
         --output_dir results_finetune_binary \
         --pred_dir results_finetune_binary/predictions \
         --split test; \

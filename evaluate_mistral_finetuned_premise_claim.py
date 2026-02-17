@@ -188,7 +188,7 @@ def evaluate(model_dir, data_dir, split, pred_dir, max_length=2048, max_new_toke
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate fine-tuned Mistral on claim/premise tagging")
     parser.add_argument('--data_dir', type=str,
-                        default='out_combined_premise_claim_jsonl',
+                        default='combined_premise_claim_jsonl',
                         help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                         default='results_combined_finetune_premise_claim',

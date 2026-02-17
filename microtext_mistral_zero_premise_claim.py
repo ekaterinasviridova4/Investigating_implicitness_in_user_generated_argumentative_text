@@ -48,7 +48,7 @@ ensure_huggingface_token()
 def parse_args():
     parser = argparse.ArgumentParser(description='Zero-shot premise/claim classification using Mistral')
     parser.add_argument('--data_path', type=str, 
-                       default='microtext_claim_premise_cleaned.conll',
+                       default='microtext_premise_claim.conll',
                        help='Path to the input CONLL file')
     parser.add_argument('--output_dir', type=str,
                        default='results_microtext_zero_premise_claim',

@@ -48,7 +48,7 @@ ensure_huggingface_token()
 def parse_args():
     parser = argparse.ArgumentParser(description='Zero-shot fine-grained classification using Mistral')
     parser.add_argument('--data_path', type=str, 
-                       default='pos_neg_cleaned.conll',
+                       default='cmv_finegrained.conll',
                        help='Path to the input CONLL file')
     parser.add_argument('--output_dir', type=str,
                        default='results_zero_finegrained',
