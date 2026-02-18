@@ -24,7 +24,7 @@ from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 
 nltk.download("punkt_tab")
 
-# Configure logging
+# Logging
 logging.basicConfig(
     filename="mistral_microtext_finetune_finegrained.log",
     level=logging.INFO,
@@ -35,7 +35,7 @@ logging.basicConfig(
 def ensure_huggingface_token():
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if not token:
-        raise ValueError("Hugging Face token not found. Please ensure it is set in the environment.")
+        raise ValueError("Hugging Face token not found. Ensure it is set in the environment.")
     else:
         logging.info("Hugging Face token found. Logging in...")
         login(token=token)
@@ -80,7 +80,7 @@ Sentence:
 
 def tokenize_supervised(example, tokenizer, max_length=2048):
   
-    # Build messages (user prompt)
+    # User prompt
     prompt = build_prompt(example["input"])
     user_messages = [{"role": "user", "content": prompt}]
     chat_request = ChatCompletionRequest(messages=user_messages)
@@ -92,12 +92,12 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
     full_request = ChatCompletionRequest(messages=full_messages, continue_final_message=True)
     full_tokens = tokenizer.encode_chat_completion(full_request).tokens
 
-    # Build full sequence
+    # Full sequence
     if len(full_tokens) < len(prompt_tokens):
         full_tokens = prompt_tokens
     labels = [-100] * len(prompt_tokens) + full_tokens[len(prompt_tokens):]
 
-    # Truncate full sequence if needed
+    # Truncate full sequence 
     if len(full_tokens) > max_length:
         full_tokens = full_tokens[:max_length]
         labels = labels[:max_length]
@@ -140,13 +140,13 @@ def setup_model_with_lora():
 def parse_args():
     parser = argparse.ArgumentParser(description='fine-tune fine-grained classification (Implicature, Ambiguity, Presupposition, Explicit) using Mistral')
     parser.add_argument('--data_dir', type=str, 
-                       default='data/jsonl/combined_finegrained',
+                       default='../../data/jsonl/combined_finegrained',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
-                       default='results_combined_finetune_finegrained',
+                       default='../../results/mistral_24B_finetune_finegrained',
                        help='Directory to save model and logs')
     parser.add_argument("--pred_dir", type=str,
-                        default="results_combined_finetune_finegrained",
+                        default="../../results/mistral_24B_finetune_finegrained",
                         help="Directory to save predictions and reports")
     # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
     #                     default=20,

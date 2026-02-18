@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Zero-shot classification using Mistral
 """
@@ -28,9 +27,9 @@ from datetime import datetime
 
 nltk.download("punkt_tab")
 
-# Configure logging
+# Logging
 logging.basicConfig(
-    filename="mistral_zero_binary.log",
+    filename="cmv_mistral_24B_zero_premise_claim.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -38,7 +37,7 @@ logging.basicConfig(
 def ensure_huggingface_token():
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if not token:
-        raise ValueError("Hugging Face token not found. Please ensure it is set in the environment.")
+        raise ValueError("Hugging Face token not found. Ensure it is set in the environment.")
     else:
         logging.info("Hugging Face token found. Logging in...")
         login(token=token)
@@ -46,12 +45,12 @@ def ensure_huggingface_token():
 ensure_huggingface_token()
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Zero-shot classification using Mistral')
+    parser = argparse.ArgumentParser(description='Zero-shot premise/claim classification using Mistral')
     parser.add_argument('--data_path', type=str, 
-                       default='data/conll/cmv_imp_exp.conll',
+                       default='../../data/conll/cmv_premise_claim.conll',
                        help='Path to the input CONLL file')
     parser.add_argument('--output_dir', type=str,
-                       default='results_zero_binary',
+                       default='../../results/cmv_mistral_24B_zero_premise_claim',
                        help='Directory to save the results')
     # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
     #                     default=None,
@@ -66,8 +65,8 @@ def parse_conll_file(conll_file_path):
     # Unified tag mapping (B- and I- merged)
     tag2id = {
         "O": 0,
-        "Implicit": 1,
-        "Explicit": 2
+        "premise": 1,
+        "claim": 2
     }
 
     with open(conll_file_path, 'r') as f:
@@ -86,23 +85,22 @@ def parse_conll_file(conll_file_path):
                 parts = line.split()
                 if len(parts) != 3:
                     print(f"Skipping malformed line {i}: {line}")
-                    continue  # Skip lines that don't have exactly 3 parts
+                    continue 
 
                 token, _, tag = parts
                 tokens.append(token)
 
                 # Merge B- and I- tags
-                if tag in ["B-Implicit", "I-Implicit"]:
-                    ner_tags.append(tag2id["Implicit"])
-                elif tag in ["B-Explicit", "I-Explicit"]:
-                    ner_tags.append(tag2id["Explicit"])
+                if tag in ["B-premise", "I-premise"]:
+                    ner_tags.append(tag2id["premise"])
+                elif tag in ["B-claim", "I-claim"]:
+                    ner_tags.append(tag2id["claim"])
                 elif tag == "O":
                     ner_tags.append(tag2id["O"])
                 else:
                     print(f"Unknown tag '{tag}' found, skipping line: {line}")
-                    continue  # Skipping unknown tags
+                    continue  
 
-        # Append the last sentence if file doesn't end with a blank line
         if tokens:
             data.append({
                 'id': str(len(data)),
@@ -113,8 +111,8 @@ def parse_conll_file(conll_file_path):
     return data
 
 # Mapping for conversion
-id2label = {0: "O", 1: "Implicit", 2: "Explicit"}
-label2id = {"O": 0, "Implicit": 1, "Explicit": 2}
+id2label = {0: "O", 1: "premise", 2: "claim"}
+label2id = {"O": 0, "premise": 1, "claim": 2}
 
 def reconstruct_sentence(tokens):
     sentence = ""
@@ -150,18 +148,19 @@ def setup_model():
     return model, tokenizer
 
 def build_prompt(sentence):
-     prompt = f"""Your task is to analyze the following sentence and determine whether it is *Implicit* or *Explicit*.
-Explicit refers to transparent and clearly understandable content.
-Implicit refers to hidden meanings or assumptions that are unclear from the given text alone.
+     prompt = f"""Your task is to analyze each sentence of the text and determine whether it is a *premise* or *claim*.
+A claim is a concluding statement.
+A premise represents an evidence, a fact, that may support or attack a claim.
+The text around the sentence provides context for understanding its role.
 
 Instructions:
-- For each Implicit or Explicit sentence found, return a separate JSON object with exactly two fields:
+- For each premise or claim sentence found, return a separate JSON object with exactly two fields:
   - "sentence": the exact span from the input sentence expressing the argument.
-  - "type": "Explicit" or "Implicit".
+  - "type": "premise" or "claim".
 - If none of them is found, return one JSON object with both fields set to "".
 - Do **not** wrap the JSON objects in a list (no square brackets).
 - Separate multiple JSON objects with **commas and spaces only**, e.g.:
-  {{ "sentence": "...", "type": "Implicit" }}, {{ "sentence": "...", "type": "Explicit" }}
+  {{ "sentence": "...", "type": "premise" }}, {{ "sentence": "...", "type": "claim" }}
 - The output must be strictly valid JSON:
   - Use double quotes only
   - Close all braces correctly
@@ -178,20 +177,18 @@ def extract_mistral_sentences(output):
     if output.lower().startswith("output:"):
         output = output[len("output:"):].strip()
     pattern = r'\{\s*"sentence"\s*:\s*"(.+?)"\s*,\s*"type"\s*:\s*"(.+?)"\s*\}'
-    return [(s.strip(), t.strip().capitalize()) for s, t in re.findall(pattern, output, re.DOTALL)]
+    return [(s.strip(), t.strip().lower()) for s, t in re.findall(pattern, output, re.DOTALL)]
 
 def get_sentence_level_labels(text, gold):
     tokens = word_tokenize(text.strip())
     labels = gold.strip().split()
 
-    # Handle mismatch between tokens and labels
+    # If mismatch between tokens and labels
     if len(tokens) != len(labels):
         logging.warning(f"Token-label mismatch: {len(tokens)} tokens vs {len(labels)} labels")
         if len(tokens) > len(labels):
-            # Pad labels with "O" for extra tokens
             labels.extend(["O"] * (len(tokens) - len(labels)))
         elif len(tokens) < len(labels):
-            # Truncate labels to match the number of tokens
             labels = labels[:len(tokens)]
 
     sents = sent_tokenize(text.strip())
@@ -199,8 +196,8 @@ def get_sentence_level_labels(text, gold):
     for sent in sents:
         n = len(word_tokenize(sent))
         tag_slice = labels[idx:idx+n]
-        label = ("Implicit" if any("Implicit" in t for t in tag_slice)
-                 else "Explicit" if any("Explicit" in t for t in tag_slice)
+        label = ("premise" if any("premise" in t for t in tag_slice)
+                 else "claim" if any("claim" in t for t in tag_slice)
                  else "O")
         output.append((sent, label))
         idx += n
@@ -228,9 +225,21 @@ def save_predictions(predictions, output_dir):
 
 def evaluate_predictions(predictions, output_dir):
     gold_all, pred_all = [], []
-    for item in predictions:
+    total_extracted_spans = 0
+    
+    for i, item in enumerate(predictions):
         gold_pairs = get_sentence_level_labels(item["sentence"], item["gold"])
         pred_pairs = extract_mistral_sentences(item["mistral_output"])
+        
+        # Debug logging for first few examples
+        if i < 5:
+            logging.info(f"Example {i}:")
+            logging.info(f"  Mistral output: {item['mistral_output'][:200]}...")
+            logging.info(f"  Extracted pred_pairs: {pred_pairs}")
+            logging.info(f"  Gold pairs: {gold_pairs}")
+        
+        total_extracted_spans += len(pred_pairs)
+        
         matched = set()
         pred_sent_map = {}
         for pred_sent, pred_label in pred_pairs:
@@ -238,12 +247,23 @@ def evaluate_predictions(predictions, output_dir):
             if idx != -1 and idx not in matched:
                 pred_sent_map[idx] = pred_label
                 matched.add(idx)
-        for i, (gold_sent, gold_label) in enumerate(gold_pairs):
-            pred_label = pred_sent_map.get(i, "O")
+        for j, (gold_sent, gold_label) in enumerate(gold_pairs):
+            pred_label = pred_sent_map.get(j, "O")
             gold_all.append(gold_label)
             pred_all.append(pred_label)
+    
+    logging.info(f"Total examples processed: {len(predictions)}")
+    logging.info(f"Total spans extracted across all examples: {total_extracted_spans}")
+    logging.info(f"Average spans per example: {total_extracted_spans / len(predictions) if predictions else 0:.2f}")
+    
+    # Label distribution
+    from collections import Counter
+    pred_counter = Counter(pred_all)
+    gold_counter = Counter(gold_all)
+    logging.info(f"Predicted label distribution: {dict(pred_counter)}")
+    logging.info(f"Gold label distribution: {dict(gold_counter)}")
 
-    report = classification_report(gold_all, pred_all, labels=["Implicit", "Explicit", "O"], digits=4)
+    report = classification_report(gold_all, pred_all, labels=["premise", "claim", "O"], digits=4)
     logging.info("Evaluation completed")
     output_file = os.path.join(output_dir, "classification_report.txt")
     with open(output_file, "w") as f:

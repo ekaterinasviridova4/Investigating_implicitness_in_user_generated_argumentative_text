@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Zero-shot classification using Mistral
 """
@@ -28,9 +27,9 @@ from datetime import datetime
 
 nltk.download("punkt_tab")
 
-# Configure logging
+# Logging
 logging.basicConfig(
-    filename="mistral_microtext_zero_finegrained.log",
+    filename="cmv_mistral_24B_zero_finegrained.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -38,7 +37,7 @@ logging.basicConfig(
 def ensure_huggingface_token():
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if not token:
-        raise ValueError("Hugging Face token not found. Please ensure it is set in the environment.")
+        raise ValueError("Hugging Face token not found. Ensure it is set in the environment.")
     else:
         logging.info("Hugging Face token found. Logging in...")
         login(token=token)
@@ -48,12 +47,12 @@ ensure_huggingface_token()
 def parse_args():
     parser = argparse.ArgumentParser(description='Zero-shot fine-grained classification using Mistral')
     parser.add_argument('--data_path', type=str, 
-                       default='data/conll/microtext_finegrained.conll',
+                       default='../../data/conll/cmv_finegrained.conll',
                        help='Path to the input CONLL file')
     parser.add_argument('--output_dir', type=str,
-                       default='results_microtext_zero_finegrained',
+                       default='../../results/cmv_mistral_24B_zero_finegrained',
                        help='Directory to save the results')
-    # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
+    # parser.add_argument('--limit', type=int, # To limit the number of examples for testing
     #                     default=None,
     #                     help='Limit number of examples for testing')
     return parser.parse_args()
@@ -63,7 +62,7 @@ def parse_conll_file(conll_file_path):
     tokens = []
     ner_tags = []
 
-    # Unified tag mapping (B- and I- merged)
+    # Tag mapping (B- and I- merged)
     tag2id = {
         "O": 0,
         "Implicature": 1,
@@ -88,7 +87,7 @@ def parse_conll_file(conll_file_path):
                 parts = line.split()
                 if len(parts) != 3:
                     print(f"Skipping malformed line {i}: {line}")
-                    continue  # Skip lines that don't have exactly 3 parts
+                    continue 
 
                 token, _, tag = parts
                 tokens.append(token)
@@ -106,9 +105,8 @@ def parse_conll_file(conll_file_path):
                     ner_tags.append(tag2id["O"])
                 else:
                     print(f"Unknown tag '{tag}' found, skipping line: {line}")
-                    continue  # Skipping unknown tags
+                    continue 
 
-        # Append the last sentence if file doesn't end with a blank line
         if tokens:
             data.append({
                 'id': str(len(data)),
@@ -194,14 +192,12 @@ def get_sentence_level_labels(text, gold):
     tokens = word_tokenize(text.strip())
     labels = gold.strip().split()
 
-    # Handle mismatch between tokens and labels
+    # If mismatch between tokens and labels
     if len(tokens) != len(labels):
         logging.warning(f"Token-label mismatch: {len(tokens)} tokens vs {len(labels)} labels")
         if len(tokens) > len(labels):
-            # Pad labels with "O" for extra tokens
             labels.extend(["O"] * (len(tokens) - len(labels)))
         elif len(tokens) < len(labels):
-            # Truncate labels to match the number of tokens
             labels = labels[:len(tokens)]
 
     sents = sent_tokenize(text.strip())
@@ -255,7 +251,7 @@ def evaluate_predictions(predictions, output_dir):
             gold_all.append(gold_label)
             pred_all.append(pred_label)
 
-    report = classification_report(gold_all, pred_all, labels=["Implicature", "Ambiguity", "Presupposition", "Explicit"], digits=4)
+    report = classification_report(gold_all, pred_all, labels=["Implicature", "Ambiguity", "Presupposition", "Explicit", "O"], digits=4)
     logging.info("Evaluation completed")
     output_file = os.path.join(output_dir, "classification_report.txt")
     with open(output_file, "w") as f:

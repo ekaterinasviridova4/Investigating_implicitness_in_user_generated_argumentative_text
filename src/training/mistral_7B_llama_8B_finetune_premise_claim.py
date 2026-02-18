@@ -23,7 +23,7 @@ from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 
 nltk.download("punkt_tab")
 
-# Configure logging
+# Logging
 def setup_logging(model_name):
     log_filename = f"{model_name}_finetune_premise_claim.log"
     logging.basicConfig(
@@ -37,7 +37,7 @@ def setup_logging(model_name):
 def ensure_huggingface_token():
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if not token:
-        raise ValueError("Hugging Face token not found. Please ensure it is set in the environment.")
+        raise ValueError("Hugging Face token not found. Ensure it is set in the environment.")
     else:
         logging.info("Hugging Face token found. Logging in...")
         login(token=token)
@@ -78,21 +78,21 @@ Sentence:
      return prompt
 
 def tokenize_supervised(example, tokenizer, max_length=2048):
-    # Build messages (user prompt)
+    # User prompt
     prompt = build_prompt(example["input"])
     messages = [
         {"role": "user", "content": prompt},
         {"role": "assistant", "content": example["output"]}
     ]
     
-    # Apply chat template
+    # Chat template
     full_text = tokenizer.apply_chat_template(
         messages, 
         tokenize=False, 
         add_generation_prompt=False
     )
     
-    # Tokenize the full conversation
+    # Tokenize 
     full_tokens = tokenizer(
         full_text,
         truncation=True,
@@ -101,7 +101,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
         return_tensors=None
     )
     
-    # Create prompt without assistant response to get the split point
+    # Create prompt without assistant response 
     prompt_messages = [{"role": "user", "content": prompt}]
     prompt_text = tokenizer.apply_chat_template(
         prompt_messages, 
@@ -120,7 +120,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
     input_ids = full_tokens["input_ids"]
     attention_mask = full_tokens["attention_mask"]
     
-    # Create labels (mask the prompt part with -100)
+    # Create labels 
     labels = input_ids.copy()
     prompt_length = len(prompt_tokens["input_ids"])
     
@@ -136,7 +136,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
 
 # Build tokenizer and model with LoRA
 def setup_model_with_lora(model_name):
-    # Define model configurations
+    # Define model configs
     model_configs = {
         'mistral-7b': 'mistralai/Mistral-7B-Instruct-v0.2',
         'llama-8b': 'meta-llama/Meta-Llama-3.1-8B-Instruct'
@@ -147,12 +147,12 @@ def setup_model_with_lora(model_name):
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     
-    # Set padding token if not present
+    # Set padding token 
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token_id = tokenizer.eos_token_id
     
-    # Configure quantization
+    # Config quantization
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_use_double_quant=True,
@@ -190,14 +190,14 @@ def parse_args():
                        default='mistral-7b',
                        help='Model to finetune: mistral-7b or llama-8b')
     parser.add_argument('--data_dir', type=str, 
-                       default='data/jsonl/combined_premise_claim',
+                       default='../../data/jsonl/combined_premise_claim',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                        default=None,
-                       help='Directory to save model and logs (auto-generated if not specified)')
+                       help='Directory to save model and logs (generated if not specified)')
     parser.add_argument("--pred_dir", type=str, 
                         default=None,
-                        help="Directory to save predictions and reports (auto-generated if not specified)")
+                        help="Directory to save predictions and reports (generated if not specified)")
     # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
     #                     default=20,
     #                     help='Limit number of examples for testing')
@@ -213,7 +213,7 @@ def parse_args():
 def main():
     args = parse_args()
     
-    # Setup logging with model-specific filename
+    # Setup logging 
     log_file = setup_logging(args.model_name)
     print(f"Logging to: {log_file}")
     
@@ -223,7 +223,7 @@ def main():
     print(f"Starting finetuning for model: {args.model_name}")
     logging.info(f"Starting finetuning for model: {args.model_name}")
     
-    # Auto-generate output directories if not provided
+    # Auto-generate output directories 
     if args.output_dir is None:
         args.output_dir = f"results_{args.model_name}_finetune_premise_claim"
     if args.pred_dir is None:
@@ -243,12 +243,12 @@ def main():
     # Setup model and tokenizer
     model, tokenizer = setup_model_with_lora(args.model_name)
 
-    # Set pad token for the model
+    # Set pad token 
     model.config.pad_token_id = tokenizer.pad_token_id
     if hasattr(model, "generation_config"):
         model.generation_config.pad_token_id = tokenizer.pad_token_id
 
-    # Use standard data collator for language modeling
+    # Data collator 
     data_collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer,
         model=model,

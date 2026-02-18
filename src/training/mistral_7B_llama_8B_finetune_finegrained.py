@@ -23,7 +23,7 @@ from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 
 nltk.download("punkt_tab")
 
-# Configure logging
+# Logging
 def setup_logging(model_name):
     log_filename = f"{model_name}_micro_finetune_finegrained.log"
     logging.basicConfig(
@@ -37,7 +37,7 @@ def setup_logging(model_name):
 def ensure_huggingface_token():
     token = os.getenv("HUGGINGFACE_HUB_TOKEN")
     if not token:
-        raise ValueError("Hugging Face token not found. Please ensure it is set in the environment.")
+        raise ValueError("Hugging Face token not found. Ensure it is set in the environment.")
     else:
         logging.info("Hugging Face token found. Logging in...")
         login(token=token)
@@ -81,14 +81,14 @@ Sentence:
      return prompt
 
 def tokenize_supervised(example, tokenizer, max_length=2048):
-    # Build messages (user prompt)
+    # User prompt
     prompt = build_prompt(example["input"])
     messages = [
         {"role": "user", "content": prompt},
         {"role": "assistant", "content": example["output"]}
     ]
     
-    # Apply chat template
+    # Chat template
     full_text = tokenizer.apply_chat_template(
         messages, 
         tokenize=False, 
@@ -104,7 +104,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
         return_tensors=None
     )
     
-    # Create prompt without assistant response to get the split point
+    # Prompt without assistant response
     prompt_messages = [{"role": "user", "content": prompt}]
     prompt_text = tokenizer.apply_chat_template(
         prompt_messages, 
@@ -123,7 +123,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
     input_ids = full_tokens["input_ids"]
     attention_mask = full_tokens["attention_mask"]
     
-    # Create labels (mask the prompt part with -100)
+    # Create labels 
     labels = input_ids.copy()
     prompt_length = len(prompt_tokens["input_ids"])
     
@@ -139,7 +139,7 @@ def tokenize_supervised(example, tokenizer, max_length=2048):
 
 # Build tokenizer and model with LoRA
 def setup_model_with_lora(model_name):
-    # Define model configurations
+    # Model configs
     model_configs = {
         'mistral-7b': 'mistralai/Mistral-7B-Instruct-v0.2',
         'llama-8b': 'meta-llama/Meta-Llama-3.1-8B-Instruct'
@@ -173,7 +173,7 @@ def setup_model_with_lora(model_name):
     )
     model = prepare_model_for_kbit_training(model)
     
-    # Configure LoRA
+    # Config LoRA
     lora_config = LoraConfig(
         r=16,
         lora_alpha=32,
@@ -193,15 +193,15 @@ def parse_args():
                        default='mistral-7b',
                        help='Model to finetune: mistral-7b or llama-8b')
     parser.add_argument('--data_dir', type=str, 
-                       default='data/jsonl/combined_finegrained',
+                       default='../../data/jsonl/combined_finegrained',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
                        default=None,
-                       help='Directory to save model and logs (auto-generated if not specified)')
+                       help='Directory to save model and logs (generated if not specified)')
     parser.add_argument("--pred_dir", type=str, 
                         default=None,
-                        help="Directory to save predictions and reports (auto-generated if not specified)")
-    # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
+                        help="Directory to save predictions and reports (generated if not specified)")
+    # parser.add_argument('--limit', type=int, # To limit the number of examples for testing
     #                     default=20,
     #                     help='Limit number of examples for testing')
     parser.add_argument("--seed", type=int, default=0)
@@ -216,7 +216,7 @@ def parse_args():
 def main():
     args = parse_args()
     
-    # Setup logging with model-specific filename
+    # Setup logging 
     log_file = setup_logging(args.model_name)
     print(f"Logging to: {log_file}")
     
@@ -226,7 +226,7 @@ def main():
     print(f"Starting finetuning for model: {args.model_name}")
     logging.info(f"Starting finetuning for model: {args.model_name}")
     
-    # Auto-generate output directories if not provided
+    # Auto-generate output directories 
     if args.output_dir is None:
         args.output_dir = f"results_{args.model_name}_finetune_finegrained"
     if args.pred_dir is None:
@@ -251,7 +251,7 @@ def main():
     if hasattr(model, "generation_config"):
         model.generation_config.pad_token_id = tokenizer.pad_token_id
 
-    # Use standard data collator for language modeling
+    # Data collator 
     data_collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer,
         model=model,
