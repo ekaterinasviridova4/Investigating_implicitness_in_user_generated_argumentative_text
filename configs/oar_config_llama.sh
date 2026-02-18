@@ -1,5 +1,5 @@
-NAME="llama_8b_micro_finetune_finegrained"
-PROJECT_NAME="test"
+NAME="your_name"
+PROJECT_NAME="your_project_name"
 HOME="/home/user"
 PROJECT_DIR="$HOME/path/to/project"
 EMAIL="user@example.com"
