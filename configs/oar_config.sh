@@ -1,10 +1,10 @@
 NAME="mistral__combined_binary_finetune"
 PROJECT_NAME="test"
-HOME="/home/esvirido"
-PROJECT_DIR="$HOME/phd/test"
-EMAIL="ekaterina.sviridova@inria.fr"
+HOME="/home/user"
+PROJECT_DIR="$HOME/path/to/project"
+EMAIL="user@example.com"
 LOGDIR="$HOME/logs"
-export HUGGINGFACE_HUB_TOKEN=$(cat /home/esvirido/.huggingface/token)
+export HUGGINGFACE_HUB_TOKEN="your_huggingface_token"
 
 # Make sure the log directory exists
 mkdir -p "$LOGDIR"
@@ -26,9 +26,9 @@ OAR_OUT=$(oarsub \
     --notify "[ERROR,INFO]mail:$EMAIL" \
     "export HUGGINGFACE_HUB_TOKEN=$HUGGINGFACE_HUB_TOKEN; \
      module load conda; \
-     source /home/esvirido/miniconda3/bin/activate /home/esvirido/miniconda3/envs/llm-env; \
+     source /path/to/conda/bin/activate /path/to/conda/envs/llm-env; \
      echo 'Starting Mistral classification...'; \
-     python3 mistral_finetune_binary.py \
+     python3 src/training/mistral_24B_finetune_imp_exp.py \
         --data_dir data/jsonl/cmv_imp_exp \
         --output_dir results_finetune_binary; \
      python3 evaluate_mistral_finetuned_binary.py \

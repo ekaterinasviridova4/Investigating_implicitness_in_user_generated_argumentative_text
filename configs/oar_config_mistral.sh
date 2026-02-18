@@ -1,10 +1,10 @@
 NAME="mistral_7b_micro_finetune_finegrained"
 PROJECT_NAME="test"
-HOME="/home/esvirido"
-PROJECT_DIR="$HOME/phd/test"
-EMAIL="ekaterina.sviridova@inria.fr"
+HOME="/home/user"
+PROJECT_DIR="$HOME/path/to/project"
+EMAIL="user@example.com"
 LOGDIR="$HOME/logs"
-export HUGGINGFACE_HUB_TOKEN=$(cat /home/esvirido/.huggingface/token)
+export HUGGINGFACE_HUB_TOKEN="your_huggingface_token"
 
 # Make sure the log directory exists
 mkdir -p "$LOGDIR"
@@ -30,10 +30,10 @@ OAR_OUT=$(oarsub \
     --notify "[ERROR,INFO]mail:$EMAIL" \
     "export HUGGINGFACE_HUB_TOKEN=$HUGGINGFACE_HUB_TOKEN; \
      module load conda; \
-     source /home/esvirido/miniconda3/bin/activate /home/esvirido/miniconda3/envs/llm-env; \
+     source /path/to/conda/bin/activate /path/to/conda/envs/llm-env; \
      
      echo 'Starting Mistral 7B fine-tuning...'; \
-     python3 7B_Mistral_Llama/finetune_finegrained.py \
+     python3 src/training/mistral_7B_llama_8B_finetune_finegrained.py \
         --model_name $MODEL_NAME \
         --data_dir $DATA_DIR \
         --output_dir $OUTPUT_DIR; \

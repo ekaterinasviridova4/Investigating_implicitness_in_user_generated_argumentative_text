@@ -8,7 +8,7 @@ import random
 from datasets import Dataset
 import logging
 import nltk
-nltk.data.path.append("/home/esvirido/nltk_data")
+nltk.data.path.append("/path/to/nltk_data")
 from nltk.tokenize import word_tokenize, sent_tokenize
 from huggingface_hub import login
 from transformers import (
