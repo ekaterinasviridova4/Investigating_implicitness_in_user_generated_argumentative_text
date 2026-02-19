@@ -12,7 +12,7 @@ from tqdm import tqdm
 from difflib import SequenceMatcher
 from sklearn.metrics import classification_report
 import nltk
-nltk.data.path.append("/path/to/nltk_data")
+nltk.data.path.append("/home/esvirido/nltk_data")
 from nltk.tokenize import word_tokenize, sent_tokenize
 from huggingface_hub import login
 from transformers import (
@@ -217,7 +217,7 @@ def validate_file(file_path):
 
 def save_predictions(predictions, output_dir):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = os.path.join(output_dir, f"binary_predictions_{timestamp}.json")
+    output_file = os.path.join(output_dir, f"imp_exp_predictions_{timestamp}.json")
     with open(output_file, "w") as f:
         json.dump(predictions, f, indent=2)
     logging.info(f"Predictions saved to {output_file}")

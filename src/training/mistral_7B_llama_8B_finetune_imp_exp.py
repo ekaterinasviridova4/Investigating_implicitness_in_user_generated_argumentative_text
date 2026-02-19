@@ -8,7 +8,7 @@ import random
 from datasets import Dataset
 import logging
 import nltk
-nltk.data.path.append("/path/to/nltk_data")
+nltk.data.path.append("/home/esvirido/nltk_data")
 from nltk.tokenize import word_tokenize, sent_tokenize
 from huggingface_hub import login
 from transformers import (
@@ -25,7 +25,7 @@ nltk.download("punkt_tab")
 
 # Logging
 def setup_logging(model_name):
-    log_filename = f"{model_name}_micro_finetune_binary.log"
+    log_filename = f"{model_name}_micro_finetune_imp_exp.log"
     logging.basicConfig(
         filename=log_filename,
         level=logging.INFO,
@@ -225,7 +225,7 @@ def main():
     
     # Auto-generate output directories
     if args.output_dir is None:
-        args.output_dir = f"results_{args.model_name}_finetune_binary"
+        args.output_dir = f"results_{args.model_name}_finetune_imp_exp"
     if args.pred_dir is None:
         args.pred_dir = args.output_dir
     

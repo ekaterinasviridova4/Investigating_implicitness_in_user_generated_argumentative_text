@@ -1,0 +1,371 @@
+doc_id,type,gold_label,pred_label,overlap,gold_text,pred_text
+0,MATCH,Explicit,Explicit,1.000,Pregnancy is hard on the body and far riskier than an abortion performed within a few weeks.,Pregnancy is hard on the body and far riskier than an abortion performed within a few weeks.
+0,MATCH,Explicit,Explicit,1.000,It could be about finances but could just be too soon for a woman to go through again.,It could be about finances but could just be too soon for a woman to go through again.
+0,MATCH,Explicit,Explicit,1.000,I ca n't confirm but I do recall reading once that a common reason for women to abort is becoming pregnant too soon after having a child.,I ca n't confirm but I do recall reading once that a common reason for women to abort is becoming pregnant too soon after having a child.
+0,MATCH,Explicit,Explicit,1.000,"I have a [ source] that shows that abortions are typically ( and in some years, mostly) had by people without enough wealth to care for there kids.","I have a [ source] that shows that abortions are typically ( and in some years, mostly) had by people without enough wealth to care for there kids."
+0,MATCH,Explicit,Explicit,1.000,Can you counter that?,Can you counter that?
+0,MATCH,Explicit,Explicit,1.000,"My thinking was that abortions were mainly required by unfortunate people, who in turn from their difficult circumstances, would 've raised the child to be the same.","My thinking was that abortions were mainly required by unfortunate people, who in turn from their difficult circumstances, would 've raised the child to be the same."
+0,MATCH,Explicit,Explicit,1.000,That may be true.,That may be true.
+0,MATCH,Explicit,Explicit,1.000,What are you talking about?,What are you talking about?
+0,MATCH,Explicit,Explicit,1.000,Something in the ballpark of 45 % of women who have abortions have more than one abortion.,Something in the ballpark of 45 % of women who have abortions have more than one abortion.
+0,MATCH,Explicit,Explicit,1.000,I also see a few times where I got redundant.,I also see a few times where I got redundant.
+0,MATCH,Explicit,Explicit,1.000,I apologize for a few things that I did that could be considered *rude* around here.,I apologize for a few things that I did that could be considered *rude* around here.
+0,MATCH,Explicit,Explicit,1.000,I am now confused and lost.,I am now confused and lost.
+0,MATCH,Explicit,Explicit,1.000,"Yes, my view was changed, but not into the polar opposite.","Yes, my view was changed, but not into the polar opposite."
+0,MATCH,Explicit,Explicit,1.000,Modern technology like the internet must be considered.,Modern technology like the internet must be considered.
+0,MATCH,Explicit,Explicit,1.000,This is to be considered if one is convinced that having a higher population coming from none-abortions results in a strain for resources in the country.,This is to be considered if one is convinced that having a higher population coming from none-abortions results in a strain for resources in the country.
+0,MATCH,Explicit,Explicit,1.000,Then there was the debate as to whether or not a larger population with less resources per person is more innovative than a smaller one.,Then there was the debate as to whether or not a larger population with less resources per person is more innovative than a smaller one.
+0,MATCH,Explicit,Explicit,1.000,"Is a more highly populated and economically productive America today going to result in an America tomorrow that can handle over population problems, or would having a higher population from none-abortion just add on to the problems of a world going to shit?","Is a more highly populated and economically productive America today going to result in an America tomorrow that can handle over population problems, or would having a higher population from none-abortion just add on to the problems of a world going to shit?"
+0,MATCH,Explicit,Explicit,1.000,Then there is the next question.,Then there is the next question.
+0,MATCH,Explicit,Explicit,1.000,Its a complicated issue.,Its a complicated issue.
+0,MATCH,Implicature,Implicature,1.000,"Waging war to purposefully lower population, even with a country facing similar issues, would cost not only resources, but it would also cause political, cultural, and global issues.","Waging war to purposefully lower population, even with a country facing similar issues, would cost not only resources, but it would also cause political, cultural, and global issues."
+0,MATCH,Implicature,Implicature,1.000,"One possibility is that there would be wars waged to try to kill them all, perhaps even with other countries with similar problems.","One possibility is that there would be wars waged to try to kill them all, perhaps even with other countries with similar problems."
+0,MATCH,Explicit,Explicit,1.000,Something in the ballpark of 45 % of women who have abortions have more than one abortion.,Something in the ballpark of 45 % of women who have abortions have more than one abortion.
+0,MATCH,Explicit,Explicit,1.000,There have been 55 million abortions in the US since 1973.,There have been 55 million abortions in the US since 1973.
+0,MISS,Ambiguity,O,0.000,America is a better place because of the 55 million abortions its had.,
+0,MISS,Presupposition,O,0.000,"These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up.",
+0,MISS,Presupposition,O,0.000,"Various ways to lower a resource negative population would have to be explored, if not because of this 55 million, then because of the next 55 million.",
+0,MISS,Presupposition,O,0.000,America 's innovation and education rankings would be lower.,
+0,MISS,Presupposition,O,0.000,Every middle-class child in the country would receive a lower quality education if there were 55 million more around.,
+0,MISS,Ambiguity,O,0.000,"I 'm not trying to hear arguments on the ethics of abortion, its a banal argument that everyone and their mother has had at one point",
+0,MISS,Explicit,O,0.000,what I am really fishing for is insight into what the country would look like with those 55 million around.,
+0,MISS,Ambiguity,O,0.000,Would we adapt to the population and make good use of each of them?,
+0,MISS,Ambiguity,O,0.000,"Without the extra population from abortions, has there been proportionately more immigration to fill labor needs, or are the millions of illegals from Mexico as likely to be so numerous even if there was a higher none-abortion population?",
+0,MISS,Ambiguity,O,0.000,"Does n't immigration of a working class citizen on such a massive scale cause dissonance in a country more so than it does cultural exchange, meaning that it would have been preferable to have our abortions alive?",
+0,MISS,Ambiguity,O,0.000,"Or are we talking about a population so huge that race and national identity are insignificant, that there is always going to be a huge amount of hostility between different demographics?",
+0,MISS,Implicature,O,0.000,Perhaps the immigration of illegals is lowering the value of blue collar work and makes it harder for the borderline impoverished citizens to provide for their children.,
+0,MISS,Implicature,O,0.000,"Its debatable how many women are having abortions due to financial reasons, but surely its a significant number, so how many of these women would n't be having financial troubles if there was n't competition from cheap illegal labor to keep wages lower?",
+0,MISS,Implicature,O,0.000,This holds true even if illegal immigration is an overall plus to the countries value.,
+0,MISS,Explicit,O,0.000,"Conclusion: Mexicans are the supreme race, native Americans will go extinct through abortion and then out-breeding.",
+0,MISS,Explicit,O,0.000,"*no that is n't a serious sentiment, i 'm just saying, this discussion is abstract enough to go into some weird places and that it is necessary to have a stopping point",
+0,MISS,Presupposition,O,0.000,"Similar: An aborted fetus is likely to have been a less productive person than a never-considered-for-abortion fetus, but in an industrial society, its likely that these abortions would still be more productive than not.",
+0,MISS,Presupposition,O,0.000,"These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up.",
+0,MISS,Presupposition,O,0.000,Do you really think abortions are only had by incompetent people who could n't be good parents?,
+0,MISS,Presupposition,O,0.000,This appears to be a belief that has led you to conclude that America must be better off but you are really misinformed about the type of women who obtain abortions.,
+0,MISS,Explicit,O,0.000,"Sure, hopefully I can find some sources to support this argument as well, otherwise I may have to change my mind! ( Here is a well sourced link to some stats about women who have abortions)",
+0,MISS,Explicit,O,0.000,"Some stats for example include"" 31 % of women obtaining abortions are in school",
+0,MISS,Explicit,O,0.000,68 % of women who have abortions are employed.,
+0,MISS,Explicit,O,0.000,"33 % of women who obtain abortions have family incomes under $ 11,000 annually, 11 % of abortions are obtained by women whose household incomes are $ 50,000 or more.",
+0,MISS,Presupposition,O,0.000,"So that means the majority of those having abortions have income between $ 11,000 and $ 55,000, which is above the Federal Poverty line.",
+0,SPURIOUS,O,Explicit,0.000,,America is a better place because of the 55 million abortions its had.
+0,SPURIOUS,O,Implicature,0.000,,"These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up."
+0,SPURIOUS,O,Implicature,0.000,,"Various ways to lower a resource negative population would have to be explored, if not because of this 55 million, then because of the next 55 million."
+0,SPURIOUS,O,Implicature,0.000,,America 's innovation and education rankings would be lower.
+0,SPURIOUS,O,Implicature,0.000,,Every middle-class child in the country would receive a lower quality education if there were 55 million more around.
+0,SPURIOUS,O,Explicit,0.000,,"I 'm not trying to hear arguments on the ethics of abortion, its a banal argument that everyone and their mother has had at one point what I am really fishing for is insight into what the country would look like with those 55 million around."
+0,SPURIOUS,O,Explicit,0.000,,Would we adapt to the population and make good use of each of them?
+0,SPURIOUS,O,Explicit,0.000,,"Without the extra population from abortions, has there been proportionately more immigration to fill labor needs, or are the millions of illegals from Mexico as likely to be so numerous even if there was a higher none-abortion population?"
+0,SPURIOUS,O,Explicit,0.000,,"Does n't immigration of a working class citizen on such a massive scale cause dissonance in a country more so than it does cultural exchange, meaning that it would have been preferable to have our abortions alive?"
+0,SPURIOUS,O,Explicit,0.000,,"Or are we talking about a population so huge that race and national identity are insignificant, that there is always going to be a huge amount of hostility between different demographics?"
+0,SPURIOUS,O,Explicit,0.000,,Perhaps the immigration of illegals is lowering the value of blue collar work and makes it harder for the borderline impoverished citizens to provide for their children.
+0,SPURIOUS,O,Explicit,0.000,,"Its debatable how many women are having abortions due to financial reasons, but surely its a significant number, so how many of these women would n't be having financial troubles if there was n't competition from cheap illegal labor to keep wages lower?"
+0,SPURIOUS,O,Explicit,0.000,,This holds true even if illegal immigration is an overall plus to the countries value.
+0,SPURIOUS,O,Explicit,0.000,,"Conclusion: Mexicans are the supreme race, native Americans will go extinct through abortion and then out-breeding. *no that is n't a serious sentiment, i 'm just saying, this discussion is abstract enough to go into some weird places and that it is necessary to have a stopping point"
+0,SPURIOUS,O,Explicit,0.000,,"Similar: An aborted fetus is likely to have been a less productive person than a never-considered-for-abortion fetus, but in an industrial society, its likely that these abortions would still be more productive than not."
+0,SPURIOUS,O,Explicit,0.000,,"These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up."
+0,SPURIOUS,O,Explicit,0.000,,Do you really think abortions are only had by incompetent people who could n't be good parents?
+0,SPURIOUS,O,Explicit,0.000,,This appears to be a belief that has led you to conclude that America must be better off but you are really misinformed about the type of women who obtain abortions.
+0,SPURIOUS,O,Explicit,0.000,,"Sure, hopefully I can find some sources to support this argument as well, otherwise I may have to change my mind!"
+0,SPURIOUS,O,Explicit,0.000,,( Here is a well sourced link to some stats about women who have abortions)
+0,SPURIOUS,O,Explicit,0.000,,"Some stats for example include"" 31 % of women obtaining abortions are in school 68 % of women who have abortions are employed. 33 % of women who obtain abortions have family incomes under $ 11,000 annually, 11 % of abortions are obtained by women whose household incomes are $ 50,000 or more."
+0,SPURIOUS,O,Explicit,0.000,,"So that means the majority of those having abortions have income between $ 11,000 and $ 55,000, which is above the Federal Poverty line."
+1,MATCH,Explicit,Explicit,1.000,I get tired of seeing people worship at the altar of the US flag - they seem blind to what the US government is really about.,I get tired of seeing people worship at the altar of the US flag - they seem blind to what the US government is really about.
+1,MATCH,Explicit,Explicit,1.000,"Maybe I put forward the wrong view, but I think you and I more or less agree that their is something fetid in the system.","Maybe I put forward the wrong view, but I think you and I more or less agree that their is something fetid in the system."
+1,MATCH,Explicit,Explicit,1.000,"No, we 're probably never going to get money out of politics entirely, but corporations being able to anonymously fund entire campaigns is a major threat to healthy government, even if it is n't, strictly speaking, un-democratic.","No, we 're probably never going to get money out of politics entirely, but corporations being able to anonymously fund entire campaigns is a major threat to healthy government, even if it is n't, strictly speaking, un-democratic."
+1,MATCH,Explicit,Explicit,1.000,"America 's problem is n't that it is n't a democracy; rather, I think that America 's problem is that it has fetishized democracy to the point where anything resulting from that system is accepted, even if it 's corrupt and tyrannical, and that 's exactly what it 's turning into.","America 's problem is n't that it is n't a democracy; rather, I think that America 's problem is that it has fetishized democracy to the point where anything resulting from that system is accepted, even if it 's corrupt and tyrannical, and that 's exactly what it 's turning into."
+1,MATCH,Explicit,Explicit,1.000,"I 'm pissed off about the way things are in America, as I 'm sure you are, and I always think that the best way to address a problem is to see it for what it is.","I 'm pissed off about the way things are in America, as I 'm sure you are, and I always think that the best way to address a problem is to see it for what it is."
+1,MATCH,Explicit,Explicit,1.000,"Ideally I would like it if no money was involved in the poltical process, but that is naive.","Ideally I would like it if no money was involved in the poltical process, but that is naive."
+1,MATCH,Explicit,Explicit,1.000,"The fact that most people vote for the most visible candidate on their side rather than the one that most closely represents their interests is a problem with the electorate and also a result of our winner-take-all voting system, but neither of those are in conflict with the USA being a democracy by definition.","The fact that most people vote for the most visible candidate on their side rather than the one that most closely represents their interests is a problem with the electorate and also a result of our winner-take-all voting system, but neither of those are in conflict with the USA being a democracy by definition."
+1,MATCH,Explicit,Explicit,1.000,There 's no rule saying that the person who raises the most money wins the election.,There 's no rule saying that the person who raises the most money wins the election.
+1,MATCH,Explicit,Explicit,1.000,"Raising large amounts of money requires leadership, diplomacy, organization, charisma… all traits I like to see in my elected officials.","Raising large amounts of money requires leadership, diplomacy, organization, charisma… all traits I like to see in my elected officials."
+1,MATCH,Explicit,Explicit,1.000,"In itself, I do n't see a problem with that.","In itself, I do n't see a problem with that."
+1,MATCH,Explicit,Explicit,1.000,"And you do n't need millions of dollars, you need to be *able to raise* millions of dollars.","And you do n't need millions of dollars, you need to be *able to raise* millions of dollars."
+1,MATCH,Explicit,Explicit,1.000,"You might not get very far, but you can run.","You might not get very far, but you can run."
+1,MATCH,Explicit,Explicit,1.000,Anyone *can* run for office.,Anyone *can* run for office.
+1,MATCH,Explicit,Explicit,1.000,"On the municipal level I do n't think superpacs are a problem, but definitely on a federal level.","On the municipal level I do n't think superpacs are a problem, but definitely on a federal level."
+1,MATCH,Explicit,Explicit,1.000,It instantly results in a situation where only the rich can run for and hold offices.,It instantly results in a situation where only the rich can run for and hold offices.
+1,MATCH,Explicit,Explicit,1.000,The fact that you need millions of dollars to do so seems unfair.,The fact that you need millions of dollars to do so seems unfair.
+1,MATCH,Explicit,Explicit,1.000,Well in my brain a fair election is when anyone can run for office.,Well in my brain a fair election is when anyone can run for office.
+1,MATCH,Explicit,Explicit,1.000,"You can argue, perhaps successfully, that the US is a fascist, un-free state, but it remains by definition a democratic one.","You can argue, perhaps successfully, that the US is a fascist, un-free state, but it remains by definition a democratic one."
+1,MATCH,Explicit,Explicit,1.000,"And we continue to vote those who do these things into office in free and fair elections, time and time again, without fail.","And we continue to vote those who do these things into office in free and fair elections, time and time again, without fail."
+1,MATCH,Explicit,Explicit,1.000,"The domestic spying, the secret courts, the torture, the corporate favoritism, the environmental destruction, the lies, the unjustified wars, the unregulated financial system ... all of those are things instituted or approved by our democratically elected officials, fully within the scope of power ceded to them by the constitution.","The domestic spying, the secret courts, the torture, the corporate favoritism, the environmental destruction, the lies, the unjustified wars, the unregulated financial system ... all of those are things instituted or approved by our democratically elected officials, fully within the scope of power ceded to them by the constitution."
+1,MATCH,Explicit,Explicit,1.000,"The answer to both of those questions is unambiguously"" yes.""","The answer to both of those questions is unambiguously"" yes."""
+1,MATCH,Explicit,Explicit,1.000,Are those officials elected in free and fair democratic elections?,Are those officials elected in free and fair democratic elections?
+1,MATCH,Explicit,Explicit,1.000,Is political power in the US held by elected officials?,Is political power in the US held by elected officials?
+1,MATCH,Explicit,Explicit,1.000,"To see if it actually *is* one ( at least the"" republic"" part), we just need to answer a few simple questions.","To see if it actually *is* one ( at least the"" republic"" part), we just need to answer a few simple questions."
+1,MATCH,Explicit,Explicit,1.000,"The USA was intended to be a federal republic, a republic being a form of indirect democracy.","The USA was intended to be a federal republic, a republic being a form of indirect democracy."
+1,MATCH,Explicit,Explicit,1.000,"A democracy is not necessarily a functional, benevolent government, nor is a democracy necessarily free.","A democracy is not necessarily a functional, benevolent government, nor is a democracy necessarily free."
+1,MATCH,Explicit,Explicit,1.000,"Honestly, none of these things have been democratically voted for, so why are Americans so deluded about this?","Honestly, none of these things have been democratically voted for, so why are Americans so deluded about this?"
+1,MATCH,Explicit,Explicit,0.812,"It 's not a free, democratic society by any means. It 's clearly an oligarchy.","It 's not a free, democratic society by any means."
+1,MISS,Presupposition,O,0.000,America is not a democracy.,
+1,MISS,Ambiguity,O,0.000,Really though. There is an unchecked organization that spies on them 24/7 without consent.,
+1,MISS,Presupposition,O,0.000,The US has given itself license to detain and torture citizens with no trial.,
+1,MISS,Presupposition,O,0.000,"The energy laws in that country allow corporations to drill where they please and, as a result, poison who they please.",
+1,MISS,Presupposition,O,0.000,American citizens have clearly been lied to in many situations.,
+1,MISS,Implicature,O,0.000,These lies have led to events like the second gulf war.,
+1,MISS,Presupposition,O,0.000,Not to mention the completely unregulated financial system.,
+1,MISS,Explicit,O,0.000,"Okay, I think you have officially Changed My View haha ...",
+1,MISS,Explicit,O,0.000,"it seems like the problem is more caused by the populace not being responsible voters, I see that and agree with it.",
+1,MISS,Explicit,O,0.000,Fair enough haha. This is the best argument I 've seen here,
+1,MISS,Implicature,O,0.000,but how can you have truly fair elections if things like superpacs exist?,
+1,MISS,Implicature,O,0.000,What 's your basis for believing that SuperPACs make elections un-free or un-fair?,
+1,MISS,Implicature,O,0.000,The corruption and lack of transparency created by PACs and SuperPACs and Citizens United in general is definitely a major problem,
+1,MISS,Explicit,O,0.000,"but like some other things that have come up in this discussion, it 's not an issue that makes the USA an un-democratic state.",
+1,SPURIOUS,O,Explicit,0.000,,America is not a democracy.
+1,SPURIOUS,O,Explicit,0.000,,Really though.
+1,SPURIOUS,O,Explicit,0.000,,There is an unchecked organization that spies on them 24/7 without consent.
+1,SPURIOUS,O,Explicit,0.000,,The US has given itself license to detain and torture citizens with no trial.
+1,SPURIOUS,O,Explicit,0.000,,"The energy laws in that country allow corporations to drill where they please and, as a result, poison who they please."
+1,SPURIOUS,O,Explicit,0.000,,American citizens have clearly been lied to in many situations.
+1,SPURIOUS,O,Explicit,0.000,,These lies have led to events like the second gulf war.
+1,SPURIOUS,O,Explicit,0.000,,Not to mention the completely unregulated financial system.
+1,SPURIOUS,O,Explicit,0.000,,"The corruption and lack of transparency created by PACs and SuperPACs and Citizens United in general is definitely a major problem but like some other things that have come up in this discussion, it 's not an issue that makes the USA an un-democratic state."
+1,SPURIOUS,O,Explicit,0.000,,"Okay, I think you have officially Changed My View haha ... it seems like the problem is more caused by the populace not being responsible voters, I see that and agree with it."
+1,SPURIOUS,O,Explicit,0.000,,It 's clearly an oligarchy.
+1,SPURIOUS,O,Explicit,0.000,,Fair enough haha.
+1,SPURIOUS,O,Explicit,0.000,,This is the best argument I 've seen here but how can you have truly fair elections if things like superpacs exist?
+1,SPURIOUS,O,Explicit,0.000,,What 's your basis for believing that SuperPACs make elections un-free or un-fair?
+2,MATCH,Explicit,Explicit,1.000,"For those of you who do n’t know, it ’s common ( at least in the US) for businesses, transit agencies, etc. to give small discounts to military veterans to thank them for their service.","For those of you who do n’t know, it ’s common ( at least in the US) for businesses, transit agencies, etc. to give small discounts to military veterans to thank them for their service."
+2,MISS,Implicature,O,0.000,"EMTs, SAR, firefighters, police, etc. should receive “military discounts”.",
+2,MISS,Implicature,O,0.000,"It seems that medical responders ( even hospital staff, actually) and other emergency services do more good for society than soldiers and that such discounts should be given to them.",
+2,MISS,Implicature,O,0.000,"As for the “ They ’re not risking their lives for our country."" argument, police officers do that too, and for citizens rather than the country and its interests.",
+2,MISS,Implicature,O,0.000,"Some might argue that soldiers do the US a disservice rather than help, but that ’s [ usually] the fault of their leaders and therefore not relevant to the debate.",
+2,MISS,Implicature,O,0.000,I,
+2,MISS,Implicature,O,0.000,"’m really hoping there ’s a good reason behind the status quo, but we ’ll see.",
+2,MISS,Ambiguity,O,0.000,"It looks like there ’s even less reason behind it than I initially thought, actually.",
+2,MISS,Implicature,O,0.000,"In summary, I think that EMS people are just as deserving of these discounts",
+2,MISS,Ambiguity,O,0.000,many more people contribute enough to be placed in the same category,
+2,MISS,Ambiguity,O,0.000,but I now believe - for the same reason - that these discounts should n’t be offered at all.,
+2,MISS,Implicature,O,0.000,"How many tons of food, water, and blankets did firefighters haul into the Sandy disaster zone?",
+2,MISS,Implicature,O,0.000,Way less than my folk.,
+2,MISS,Implicature,O,0.000,Does that make us public servants? Nope. We all just do our jobs.,
+2,MISS,Implicature,O,0.000,Are you a trucker?,
+2,MISS,Explicit,O,0.000,Yep,
+2,MISS,Explicit,O,0.000,.,
+2,SPURIOUS,O,Explicit,0.000,,"EMTs, SAR, firefighters, police, etc. should receive “military discounts”."
+2,SPURIOUS,O,Explicit,0.000,,"It seems that medical responders ( even hospital staff, actually) and other emergency services do more good for society than soldiers and that such discounts should be given to them."
+2,SPURIOUS,O,Explicit,0.000,,"As for the “ They ’re not risking their lives for our country."" argument, police officers do that too, and for citizens rather than the country and its interests."
+2,SPURIOUS,O,Explicit,0.000,,"Some might argue that soldiers do the US a disservice rather than help, but that ’s [ usually] the fault of their leaders and therefore not relevant to the debate."
+2,SPURIOUS,O,Explicit,0.000,,"I ’m really hoping there ’s a good reason behind the status quo, but we ’ll see."
+2,SPURIOUS,O,Explicit,0.000,,"It looks like there ’s even less reason behind it than I initially thought, actually."
+2,SPURIOUS,O,Explicit,0.000,,"In summary, I think that EMS people are just as deserving of these discounts many more people contribute enough to be placed in the same category but I now believe - for the same reason - that these discounts should n’t be offered at all."
+2,SPURIOUS,O,Explicit,0.000,,"How many tons of food, water, and blankets did firefighters haul into the Sandy disaster zone?"
+2,SPURIOUS,O,Explicit,0.000,,Way less than my folk.
+2,SPURIOUS,O,Explicit,0.000,,Does that make us public servants?
+2,SPURIOUS,O,Explicit,0.000,,Nope.
+2,SPURIOUS,O,Explicit,0.000,,We all just do our jobs.
+2,SPURIOUS,O,Explicit,0.000,,Are you a trucker?
+2,SPURIOUS,O,Explicit,0.000,,Yep.
+3,MATCH,Explicit,Explicit,1.000,"Just like the Industrial revolution forced feudal and mercantile agriculturalist societies to become capitalist ones, the Automation revolution will force capitalist economies to become socialist ones.","Just like the Industrial revolution forced feudal and mercantile agriculturalist societies to become capitalist ones, the Automation revolution will force capitalist economies to become socialist ones."
+3,MATCH,Explicit,Explicit,1.000,"Automation is a slow process that will take decades, and end up revolutionizing our economic structure and way of life.","Automation is a slow process that will take decades, and end up revolutionizing our economic structure and way of life."
+3,MATCH,Explicit,Explicit,1.000,Praxagora: The ~~slaves~~ robots of course.,Praxagora: The ~~slaves~~ robots of course.
+3,MATCH,Explicit,Explicit,1.000,Blepyrus: But who will till the soil?,Blepyrus: But who will till the soil?
+3,MATCH,Explicit,Explicit,1.000,"Praxagora: I want all to have a share of everything and all property to be in common; there will no longer be either rich or poor; I shall begin by making land, money, everything that is private property, common to all.","Praxagora: I want all to have a share of everything and all property to be in common; there will no longer be either rich or poor; I shall begin by making land, money, everything that is private property, common to all."
+3,MATCH,Explicit,Explicit,1.000,"I do n't think it would kill everybody, but the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes.","I do n't think it would kill everybody, but the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes."
+3,MATCH,Explicit,Explicit,1.000,I do disagree with Gade a little bit.,I do disagree with Gade a little bit.
+3,MATCH,Explicit,Explicit,1.000,"I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not, I just have not been able to beat it myself.","I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not, I just have not been able to beat it myself."
+3,MATCH,Explicit,Explicit,1.000,There is also a Youtube video to go with this opinion.,There is also a Youtube video to go with this opinion.
+3,MATCH,Explicit,Explicit,1.000,It is the final stretch of the linear trend that began with the birth of our species.,It is the final stretch of the linear trend that began with the birth of our species.
+3,MATCH,Explicit,Explicit,1.000,The current jobless situation you read about in the news is not an ordinary part of the business cycle.,The current jobless situation you read about in the news is not an ordinary part of the business cycle.
+3,MATCH,Explicit,Explicit,1.000,"At some point, Man 's artificial economic system will necessarily collapse.","At some point, Man 's artificial economic system will necessarily collapse."
+3,MATCH,Explicit,Explicit,1.000,It is known as Unemployment.,It is known as Unemployment.
+3,MATCH,Explicit,Explicit,1.000,It turns out that there is a final category.,It turns out that there is a final category.
+3,MATCH,Explicit,Explicit,1.000,"There have been 4 jobs or activities which Man has engaged in throughout the centuries: Hunter / Gathering, Agriculture, Manufacturing, and Services.","There have been 4 jobs or activities which Man has engaged in throughout the centuries: Hunter / Gathering, Agriculture, Manufacturing, and Services."
+3,MATCH,Explicit,Explicit,1.000,Humans are going to die out because of an economic collapse.,Humans are going to die out because of an economic collapse.
+3,MISS,Explicit,O,0.000,Bill Gade presents the argument better than I do so I will just quote him.,
+3,MISS,Explicit,O,0.000,What 's next?,
+3,MISS,Explicit,O,0.000,What category can you imagine in which billions of people will be working in the future?,
+3,MISS,Implicature,O,0.000,"As Agriculture, Manufacturing, and Services become more efficient in the coming months, workers will have nowhere to go but to the unemployment line.",
+3,MISS,Presupposition,O,0.000,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so.",
+3,MISS,Presupposition,O,0.000,The cities will suffer great hunger and it will be the end of Man.,
+3,MISS,Implicature,O,0.000,I probably believe this because I listen to Alex Jones too much.,
+3,MISS,Implicature,O,0.000,On one hand the trend if confirmed would be consistent with Karl Marx 's prediction.,
+3,MISS,Implicature,O,0.000,On the other hand I work with Free Software on a daily basis but it seems more capitalist than anything.,
+3,SPURIOUS,O,Implicature,0.000,,Bill Gade presents the argument better than I do so I will just quote him.
+3,SPURIOUS,O,Ambiguity,0.000,,What 's next? What category can you imagine in which billions of people will be working in the future?
+3,SPURIOUS,O,Explicit,0.000,,"As Agriculture, Manufacturing, and Services become more efficient in the coming months, workers will have nowhere to go but to the unemployment line."
+3,SPURIOUS,O,Explicit,0.000,,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so."
+3,SPURIOUS,O,Explicit,0.000,,The cities will suffer great hunger and it will be the end of Man.
+3,SPURIOUS,O,Explicit,0.000,,I probably believe this because I listen to Alex Jones too much.
+3,SPURIOUS,O,Explicit,0.000,,On one hand the trend if confirmed would be consistent with Karl Marx 's prediction.
+3,SPURIOUS,O,Explicit,0.000,,On the other hand I work with Free Software on a daily basis but it seems more capitalist than anything.
+4,MATCH,Explicit,Explicit,1.000,The rural folk can survive without the urban folk but their standard of living will plummet due to lack of infrastructure.,The rural folk can survive without the urban folk but their standard of living will plummet due to lack of infrastructure.
+4,MATCH,Explicit,Explicit,1.000,"Cryptocurrency may help a little because it would allow servers to be able to buy and sell things, but once they can administrate their own systems what is the use of humans.","Cryptocurrency may help a little because it would allow servers to be able to buy and sell things, but once they can administrate their own systems what is the use of humans."
+4,MATCH,Explicit,Explicit,1.000,Machines do n't have money either so they wo n't bother buying services from us.,Machines do n't have money either so they wo n't bother buying services from us.
+4,MATCH,Explicit,Explicit,1.000,The reason that the end of our current economic paradigm wo n't be followed by a new one is because there is nothing for us to do after the machines are doing all of the service jobs we are currently losing.,The reason that the end of our current economic paradigm wo n't be followed by a new one is because there is nothing for us to do after the machines are doing all of the service jobs we are currently losing.
+4,MATCH,Explicit,Explicit,1.000,"At some point, Man 's artificial economic system will necessarily collapse.","At some point, Man 's artificial economic system will necessarily collapse."
+4,MATCH,Explicit,Explicit,1.000,"I do n't think it would kill everybody, but the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes.","I do n't think it would kill everybody, but the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes."
+4,MATCH,Explicit,Explicit,1.000,I do disagree with Gade a little bit.,I do disagree with Gade a little bit.
+4,MATCH,Explicit,Explicit,1.000,"I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not, I just have not been able to beat it myself.","I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not, I just have not been able to beat it myself."
+4,MATCH,Explicit,Explicit,1.000,There is also a Youtube video to go with this opinion.,There is also a Youtube video to go with this opinion.
+4,MATCH,Explicit,Explicit,1.000,It is the final stretch of the linear trend that began with the birth of our species.,It is the final stretch of the linear trend that began with the birth of our species.
+4,MATCH,Explicit,Explicit,1.000,The current jobless situation you read about in the news is not an ordinary part of the business cycle.,The current jobless situation you read about in the news is not an ordinary part of the business cycle.
+4,MATCH,Explicit,Explicit,1.000,"At some point, Man 's artificial economic system will necessarily collapse.","At some point, Man 's artificial economic system will necessarily collapse."
+4,MATCH,Explicit,Explicit,1.000,It is known as Unemployment.,It is known as Unemployment.
+4,MATCH,Explicit,Explicit,1.000,It turns out that there is a final category.,It turns out that there is a final category.
+4,MATCH,Explicit,Explicit,1.000,"There have been 4 jobs or activities which Man has engaged in throughout the centuries: Hunter / Gathering, Agriculture, Manufacturing, and Services.","There have been 4 jobs or activities which Man has engaged in throughout the centuries: Hunter / Gathering, Agriculture, Manufacturing, and Services."
+4,MATCH,Explicit,Explicit,1.000,Humans are going to die out because of an economic collapse.,Humans are going to die out because of an economic collapse.
+4,MISS,Explicit,O,0.000,Bill Gade presents the argument better than I do so I will just quote him.,
+4,MISS,Explicit,O,0.000,What 's next?,
+4,MISS,Explicit,O,0.000,What category can you imagine in which billions of people will be working in the future?,
+4,MISS,Implicature,O,0.000,"As Agriculture, Manufacturing, and Services become more efficient in the coming months, workers will have nowhere to go but to the unemployment line.",
+4,MISS,Presupposition,O,0.000,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so.",
+4,MISS,Presupposition,O,0.000,The cities will suffer great hunger and it will be the end of Man.,
+4,MISS,Implicature,O,0.000,I probably believe this because I listen to Alex Jones too much.,
+4,MISS,Explicit,O,0.000,Which one?,
+4,MISS,Explicit,O,0.000,Why is the end of our current economic paradigm not followed by a new one?,
+4,MISS,Presupposition,O,0.000,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so.",
+4,MISS,Presupposition,O,0.000,The cities will suffer great hunger and it will be the end of Man.,
+4,MISS,Explicit,O,0.000,Yes food shortages would be difficult in a city but if it got that bad why would n't people just leave the city and form small communities that farmed their own food?,
+4,MISS,Explicit,O,0.000,Why would it be the end of man?,
+4,MISS,Presupposition,O,0.000,What would be stopping them is the people already in the commutes they would try to go to.,
+4,MISS,Presupposition,O,0.000,If the urban folk get rid of the rural folk the urban folk will just die due to their lack of skills.,
+4,MISS,Presupposition,O,0.000,They could n't just survive together because the ecosystem will not be able to sustain the amount of people.,
+4,SPURIOUS,O,Implicature,0.000,,Bill Gade presents the argument better than I do so I will just quote him.
+4,SPURIOUS,O,Ambiguity,0.000,,What 's next?
+4,SPURIOUS,O,Ambiguity,0.000,,What category can you imagine in which billions of people will be working in the future?
+4,SPURIOUS,O,Explicit,0.000,,"As Agriculture, Manufacturing, and Services become more efficient in the coming months, workers will have nowhere to go but to the unemployment line."
+4,SPURIOUS,O,Explicit,0.000,,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so."
+4,SPURIOUS,O,Explicit,0.000,,The cities will suffer great hunger and it will be the end of Man.
+4,SPURIOUS,O,Explicit,0.000,,I probably believe this because I listen to Alex Jones too much.
+4,SPURIOUS,O,Ambiguity,0.000,,Which one?
+4,SPURIOUS,O,Ambiguity,0.000,,Why is the end of our current economic paradigm not followed by a new one?
+4,SPURIOUS,O,Explicit,0.000,,"When that happens, the corporations which produce and deliver food will no longer have an incentive to do so."
+4,SPURIOUS,O,Explicit,0.000,,The cities will suffer great hunger and it will be the end of Man.
+4,SPURIOUS,O,Ambiguity,0.000,,Yes food shortages would be difficult in a city but if it got that bad why would n't people just leave the city and form small communities that farmed their own food?
+4,SPURIOUS,O,Ambiguity,0.000,,Why would it be the end of man?
+4,SPURIOUS,O,Explicit,0.000,,What would be stopping them is the people already in the commutes they would try to go to.
+4,SPURIOUS,O,Explicit,0.000,,If the urban folk get rid of the rural folk the urban folk will just die due to their lack of skills.
+4,SPURIOUS,O,Explicit,0.000,,They could n't just survive together because the ecosystem will not be able to sustain the amount of people.
+5,MATCH,Explicit,Explicit,1.000,"We already clamp down on extremism, and potential extremists are actively monitored using existing surveillance techniques.","We already clamp down on extremism, and potential extremists are actively monitored using existing surveillance techniques."
+5,MATCH,Explicit,Explicit,1.000,"Although I may disagree somewhat, I see why censorship can be dangerous.","Although I may disagree somewhat, I see why censorship can be dangerous."
+5,MATCH,Explicit,Explicit,1.000,Good arguments.,Good arguments.
+5,MATCH,Explicit,Explicit,1.000,"Finally it gives them a true claim that they are being oppressed and targeted, which history suggests tends to strengthen a group.","Finally it gives them a true claim that they are being oppressed and targeted, which history suggests tends to strengthen a group."
+5,MATCH,Explicit,Explicit,1.000,"It also dooms any attempt to change their beliefs, as their opponents no longer understand those beliefs sufficiently to do this.","It also dooms any attempt to change their beliefs, as their opponents no longer understand those beliefs sufficiently to do this."
+5,MATCH,Explicit,Explicit,1.000,"This brings their arguments out of public discourse, where a solid counter-argument is more likely to be interjected.","This brings their arguments out of public discourse, where a solid counter-argument is more likely to be interjected."
+5,MATCH,Explicit,Explicit,1.000,"Indeed, they will work hard to evade the censor, carrying out their activities further from the public eye.","Indeed, they will work hard to evade the censor, carrying out their activities further from the public eye."
+5,MATCH,Explicit,Explicit,1.000,Censorship does not eliminate the censored individual.,Censorship does not eliminate the censored individual.
+5,MATCH,Explicit,Explicit,1.000,"Censorship is an extreme reaction to an extreme force, and here are two very good arguments for why should be seen as an extreme option:","Censorship is an extreme reaction to an extreme force, and here are two very good arguments for why should be seen as an extreme option:"
+5,MATCH,Explicit,Explicit,1.000,The supports necessary for real stability simply do n't exist.,The supports necessary for real stability simply do n't exist.
+5,MATCH,Explicit,Explicit,1.000,After the horrors of World War 2 I find it completely absurd that we still put up with their ideologies.,After the horrors of World War 2 I find it completely absurd that we still put up with their ideologies.
+5,MATCH,Explicit,Explicit,1.000,"Instead, I think governments should do much more and try to completely stamp out any signs of fascism.","Instead, I think governments should do much more and try to completely stamp out any signs of fascism."
+5,MATCH,Explicit,Explicit,1.000,I see this as a major flaw in democracy.,I see this as a major flaw in democracy.
+5,MATCH,Explicit,Explicit,1.000,The world has been to soft on these ideologies and they need to be eliminated whenever they appear.,The world has been to soft on these ideologies and they need to be eliminated whenever they appear.
+5,MISS,Implicature,O,0.000,"Most democracies are far too tolerant of extremism, especially the likes of neo-fascism, neo-nazism, radical Islamism and violent intolerance.",
+5,MISS,Implicature,O,0.000,"I think some of the biggest threats to global stability comes from the political fringes. It 's either the extreme left, or the extreme right.",
+5,MISS,Implicature,O,0.000,"Radicalism almost always leads to violence, and is a plague on democratic society and governments.",
+5,MISS,Implicature,O,0.000,"Since communism has been relegated to just a handful of countries, the far-left has for the most part been dealt with.",
+5,MISS,Implicature,O,0.000,However the far-right continues to be a menace.,
+5,MISS,Implicature,O,0.000,"I believe fascist neo-nazi groups, the KKK, the golden dawn or any religious extremist group like radical Islamism all fall under the far-right.",
+5,MISS,Presupposition,O,0.000,"These groups are always extreme fringes, and a handful of people make the world a much nastier place.",
+5,MISS,Ambiguity,O,0.000,"Often it is the leaders of such movements that prey on the weak-willed, using them as pawns in their ambitions of power.",
+5,MISS,Implicature,O,0.000,"Unfortunately with the world 's obsession with free speech and personal liberty, such leaders are given a free hand.",
+5,MISS,Implicature,O,0.000,On websites like twitter and facebook we see ISIS recruit blind followers.,
+5,MISS,Explicit,O,0.000,"Would n't restricting"" free speech"" put brakes on this sort of recruitment?",
+5,MISS,Presupposition,O,0.000,"Political parties in democracies often try to keep these groups on a leash, but do not wish to eliminate them since they serve definite political goals like polarizing the electorate.",
+5,MISS,Presupposition,O,0.000,Fear of losing votes from radical sympathizers leads to political groups appeasing extremism.,
+5,MISS,Ambiguity,O,0.000,"Bringing socio-economic growth to communities that feel disenfranchised just is n't enough, and their will always be a few bad apples.",
+5,MISS,Ambiguity,O,0.000,These bad apples need to be weeded out.,
+5,MISS,Ambiguity,O,0.000,"Instead, we allow them to spread their rot, and infect society.",
+5,MISS,Implicature,O,0.000,I think some of the biggest threats to global stability comes from the political fringes.,
+5,MISS,Ambiguity,O,0.000,The only constant is change.,
+5,MISS,Implicature,O,0.000,Global stability is a myth grown out of a population that has gotten good at balancing acts.,
+5,MISS,Implicature,O,0.000,"To carry out a balancing act, you have to avoid any extreme reactions, as they only make for larger oscillations.",
+5,MISS,Ambiguity,O,0.000,There are many things we used to consider extreme that are now fundamental principles of our society.,
+5,MISS,Ambiguity,O,0.000,"We claim that our old positions were wrong, and have good evidence to back this up.",
+5,MISS,Ambiguity,O,0.000,"With this in mind, we are forced to acknowledge that we are probably making errors in other places, and may even have been led astray in one of the areas we have already changed.",
+5,MISS,Ambiguity,O,0.000,Censorship halts this process and locks in whatever is current.,
+5,MISS,Implicature,O,0.000,One thing about censorship: do n't you think it 's a problem that the likes of ISIS some neo-nazi groups actively recruit on twitter and facebook?,
+5,MISS,Explicit,O,0.000,Should't this sort of thing be stopped?,
+5,MISS,Ambiguity,O,0.000,There are many things we used to consider extreme that are now fundamental principles of our society.,
+5,MISS,Explicit,O,0.000,"While this may be true, has n't the killing of innocents ( and murder or rape, or destruction of property) always been considered deeply immoral ( outside of wars)?",
+5,MISS,Explicit,O,0.000,Is it really that bad to go after them just a little bit more?,
+5,SPURIOUS,O,Explicit,0.000,,"Most democracies are far too tolerant of extremism, especially the likes of neo-fascism, neo-nazism, radical Islamism and violent intolerance."
+5,SPURIOUS,O,Explicit,0.000,,I think some of the biggest threats to global stability comes from the political fringes.
+5,SPURIOUS,O,Explicit,0.000,,"It 's either the extreme left, or the extreme right."
+5,SPURIOUS,O,Explicit,0.000,,"Radicalism almost always leads to violence, and is a plague on democratic society and governments."
+5,SPURIOUS,O,Explicit,0.000,,"Since communism has been relegated to just a handful of countries, the far-left has for the most part been dealt with."
+5,SPURIOUS,O,Explicit,0.000,,However the far-right continues to be a menace.
+5,SPURIOUS,O,Explicit,0.000,,"I believe fascist neo-nazi groups, the KKK, the golden dawn or any religious extremist group like radical Islamism all fall under the far-right."
+5,SPURIOUS,O,Explicit,0.000,,"These groups are always extreme fringes, and a handful of people make the world a much nastier place."
+5,SPURIOUS,O,Explicit,0.000,,"Often it is the leaders of such movements that prey on the weak-willed, using them as pawns in their ambitions of power."
+5,SPURIOUS,O,Explicit,0.000,,"Unfortunately with the world 's obsession with free speech and personal liberty, such leaders are given a free hand."
+5,SPURIOUS,O,Explicit,0.000,,On websites like twitter and facebook we see ISIS recruit blind followers.
+5,SPURIOUS,O,Ambiguity,0.000,,"Would n't restricting"" free speech"" put brakes on this sort of recruitment?"
+5,SPURIOUS,O,Explicit,0.000,,"Political parties in democracies often try to keep these groups on a leash, but do not wish to eliminate them since they serve definite political goals like polarizing the electorate."
+5,SPURIOUS,O,Explicit,0.000,,Fear of losing votes from radical sympathizers leads to political groups appeasing extremism.
+5,SPURIOUS,O,Explicit,0.000,,"Bringing socio-economic growth to communities that feel disenfranchised just is n't enough, and their will always be a few bad apples."
+5,SPURIOUS,O,Explicit,0.000,,These bad apples need to be weeded out.
+5,SPURIOUS,O,Explicit,0.000,,"Instead, we allow them to spread their rot, and infect society."
+5,SPURIOUS,O,Explicit,0.000,,I think some of the biggest threats to global stability comes from the political fringes.
+5,SPURIOUS,O,Explicit,0.000,,The only constant is change.
+5,SPURIOUS,O,Explicit,0.000,,Global stability is a myth grown out of a population that has gotten good at balancing acts.
+5,SPURIOUS,O,Explicit,0.000,,"To carry out a balancing act, you have to avoid any extreme reactions, as they only make for larger oscillations."
+5,SPURIOUS,O,Explicit,0.000,,There are many things we used to consider extreme that are now fundamental principles of our society.
+5,SPURIOUS,O,Explicit,0.000,,"We claim that our old positions were wrong, and have good evidence to back this up."
+5,SPURIOUS,O,Explicit,0.000,,"With this in mind, we are forced to acknowledge that we are probably making errors in other places, and may even have been led astray in one of the areas we have already changed."
+5,SPURIOUS,O,Explicit,0.000,,Censorship halts this process and locks in whatever is current.
+5,SPURIOUS,O,Ambiguity,0.000,,One thing about censorship: do n't you think it 's a problem that the likes of ISIS some neo-nazi groups actively recruit on twitter and facebook?
+5,SPURIOUS,O,Ambiguity,0.000,,Should't this sort of thing be stopped?
+5,SPURIOUS,O,Explicit,0.000,,There are many things we used to consider extreme that are now fundamental principles of our society.
+5,SPURIOUS,O,Ambiguity,0.000,,"While this may be true, has n't the killing of innocents ( and murder or rape, or destruction of property) always been considered deeply immoral ( outside of wars)?"
+5,SPURIOUS,O,Ambiguity,0.000,,Is it really that bad to go after them just a little bit more?
+6,MATCH,Explicit,Explicit,1.000,The information is gutted and moved around making the site difficult to browse if it 's something you are familiar with and less useful because the information is presented in a mobile-friendly way.,The information is gutted and moved around making the site difficult to browse if it 's something you are familiar with and less useful because the information is presented in a mobile-friendly way.
+6,MATCH,Explicit,Explicit,1.000,Mobile websites are a relic of the early mobile internet era and are inferior to actual websites when using your smartphone.,Mobile websites are a relic of the early mobile internet era and are inferior to actual websites when using your smartphone.
+6,MISS,Implicature,O,0.000,Full disclosure I use an iPhone but any smart phone can handle this.,
+6,MISS,Implicature,O,0.000,There is n't a single instance where a mobile website is preferable to a full site.,
+6,MISS,Explicit,O,0.000,"I believe smart phones are prevalent enough among phone users who want to use the Internet that it outweighs the"" some people do n't have smartphones"" argument.",
+6,MISS,Implicature,O,0.000,Websites should not default force mobile and have the option to go default and instead start default and allow mobile.,
+6,MISS,Explicit,O,0.000,"As someone from a developing country, I would like to point out that mobile sites require less amount of data transfer to view than a desktop site which is a big thing for us due to slower Internet connections.",
+6,MISS,Explicit,O,0.000,I had n't considered the obvious fact that web sites can be accessed globally and not everyone has the type of network the US enjoys.,
+6,SPURIOUS,O,Explicit,0.000,,Full disclosure I use an iPhone but any smart phone can handle this.
+6,SPURIOUS,O,Explicit,0.000,,There is n't a single instance where a mobile website is preferable to a full site.
+6,SPURIOUS,O,Implicature,0.000,,"I believe smart phones are prevalent enough among phone users who want to use the Internet that it outweighs the"" some people do n't have smartphones"" argument."
+6,SPURIOUS,O,Explicit,0.000,,Websites should not default force mobile and have the option to go default and instead start default and allow mobile.
+6,SPURIOUS,O,Presupposition,0.000,,"As someone from a developing country, I would like to point out that mobile sites require less amount of data transfer to view than a desktop site which is a big thing for us due to slower Internet connections."
+6,SPURIOUS,O,Implicature,0.000,,I had n't considered the obvious fact that web sites can be accessed globally and not everyone has the type of network the US enjoys.
+7,MATCH,Explicit,Explicit,1.000,"The only way to make real change in industries like this is to organize and participate in a boycott on a wide-scale level, and / or to petition the government to make regulation changes.","The only way to make real change in industries like this is to organize and participate in a boycott on a wide-scale level, and / or to petition the government to make regulation changes."
+7,MATCH,Explicit,Explicit,1.000,What 's the point?,What 's the point?
+7,MATCH,Explicit,Explicit,1.000,Stop supporting it how?,Stop supporting it how?
+7,MATCH,Explicit,Explicit,1.000,You do n't agree with what is going on and stop supporting it.,You do n't agree with what is going on and stop supporting it.
+7,MATCH,Explicit,Explicit,1.000,"You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it.","You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it."
+7,MATCH,Explicit,Explicit,1.000,You do n't agree with what is going on and stop supporting it.,You do n't agree with what is going on and stop supporting it.
+7,MISS,Ambiguity,O,0.000,I believe you have three choices once you discover the suffering animals endure in the meat industry ...,
+7,MISS,Presupposition,O,0.000,"You do n't care about animals, so you 're content with paying for them to be abused for your pleasure.",
+7,MISS,Presupposition,O,0.000,"Reasoning: I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values.",
+7,MISS,Explicit,O,0.000,I suspect this way of looking at it is still somewhat simplistic however,
+7,MISS,Explicit,O,0.000,so feel free to prove me wrong.,
+7,MISS,Implicature,O,0.000,"As in never buying meat again, even as you know that doing so will not have any impact on the meat industry whatsoever, and wo n't make even an ounce of difference in the lives of animals?",
+7,MISS,Implicature,O,0.000,"If I stop eating meat today, it wo n't make any difference whatsoever and wo n't save even a single animal 's life.",
+7,MISS,Implicature,O,0.000,"I would n't buy ivory, dog leather or fur for the same reasons",
+7,MISS,Implicature,O,0.000,I find meat disgusting based on what I 've seen and want no part of endorsing it whether it makes any difference overall or not.,
+7,SPURIOUS,O,Explicit,0.000,,I believe you have three choices once you discover the suffering animals endure in the meat industry ...
+7,SPURIOUS,O,Explicit,0.000,,"You do n't care about animals, so you 're content with paying for them to be abused for your pleasure."
+7,SPURIOUS,O,Explicit,0.000,,"Reasoning: I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values."
+7,SPURIOUS,O,Explicit,0.000,,I suspect this way of looking at it is still somewhat simplistic however so feel free to prove me wrong.
+7,SPURIOUS,O,Explicit,0.000,,"As in never buying meat again, even as you know that doing so will not have any impact on the meat industry whatsoever, and wo n't make even an ounce of difference in the lives of animals?"
+7,SPURIOUS,O,Explicit,0.000,,"If I stop eating meat today, it wo n't make any difference whatsoever and wo n't save even a single animal 's life."
+7,SPURIOUS,O,Explicit,0.000,,"I would n't buy ivory, dog leather or fur for the same reasons I find meat disgusting based on what I 've seen and want no part of endorsing it whether it makes any difference overall or not."
+8,MATCH,Explicit,Explicit,1.000,"For those of you who do n’t know, it ’s common ( at least in the US) for businesses, transit agencies, etc. to give small discounts to military veterans to thank them for their service.","For those of you who do n’t know, it ’s common ( at least in the US) for businesses, transit agencies, etc. to give small discounts to military veterans to thank them for their service."
+8,MISS,Implicature,O,0.000,"EMTs, SAR, firefighters, police, etc. should receive “military discounts”.",
+8,MISS,Implicature,O,0.000,"It seems that medical responders ( even hospital staff, actually) and other emergency services do more good for society than soldiers and that such discounts should be given to them.",
+8,MISS,Implicature,O,0.000,"As for the “ They ’re not risking their lives for our country."" argument, police officers do that too, and for citizens rather than the country and its interests.",
+8,MISS,Implicature,O,0.000,"Some might argue that soldiers do the US a disservice rather than help, but that ’s [ usually] the fault of their leaders and therefore not relevant to the debate.",
+8,MISS,Implicature,O,0.000,I,
+8,MISS,Implicature,O,0.000,"’m really hoping there ’s a good reason behind the status quo, but we ’ll see.",
+8,MISS,Ambiguity,O,0.000,"It looks like there ’s even less reason behind it than I initially thought, actually.",
+8,MISS,Implicature,O,0.000,"In summary, I think that EMS people are just as deserving of these discounts",
+8,MISS,Ambiguity,O,0.000,many more people contribute enough to be placed in the same category,
+8,MISS,Ambiguity,O,0.000,but I now believe - for the same reason - that these discounts should n’t be offered at all.,
+8,MISS,Presupposition,O,0.000,"Sure firefighters, EMT 's, and nurses do great things for people... for those who have money and great insurance.",
+8,MISS,Implicature,O,0.000,It,
+8,MISS,Implicature,O,0.000,’s not like the dispatcher chooses which calls to answer based on insurance policies.,
+8,SPURIOUS,O,Explicit,0.000,,"EMTs, SAR, firefighters, police, etc. should receive “military discounts”."
+8,SPURIOUS,O,Explicit,0.000,,"It seems that medical responders ( even hospital staff, actually) and other emergency services do more good for society than soldiers and that such discounts should be given to them."
+8,SPURIOUS,O,Explicit,0.000,,"As for the “ They ’re not risking their lives for our country."" argument, police officers do that too, and for citizens rather than the country and its interests."
+8,SPURIOUS,O,Explicit,0.000,,"Some might argue that soldiers do the US a disservice rather than help, but that ’s [ usually] the fault of their leaders and therefore not relevant to the debate."
+8,SPURIOUS,O,Explicit,0.000,,"I ’m really hoping there ’s a good reason behind the status quo, but we ’ll see."
+8,SPURIOUS,O,Explicit,0.000,,"It looks like there ’s even less reason behind it than I initially thought, actually."
+8,SPURIOUS,O,Explicit,0.000,,"In summary, I think that EMS people are just as deserving of these discounts many more people contribute enough to be placed in the same category but I now believe - for the same reason - that these discounts should n’t be offered at all."
+8,SPURIOUS,O,Explicit,0.000,,"Sure firefighters, EMT 's, and nurses do great things for people... for those who have money and great insurance."
+8,SPURIOUS,O,Explicit,0.000,,It ’s not like the dispatcher chooses which calls to answer based on insurance policies.

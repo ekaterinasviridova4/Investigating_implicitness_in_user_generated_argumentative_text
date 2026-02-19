@@ -8,7 +8,7 @@ import random
 from datasets import Dataset
 import logging
 import nltk
-nltk.data.path.append("/path/to/nltk_data")
+nltk.data.path.append("/home/esvirido/nltk_data")
 from nltk.tokenize import word_tokenize, sent_tokenize
 from huggingface_hub import login
 from transformers import (
@@ -26,7 +26,7 @@ nltk.download("punkt_tab")
 
 # Logging
 logging.basicConfig(
-    filename="mistral_microtext_finetune_binary.log",
+    filename="mistral_microtext_finetune_imp_exp.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -135,7 +135,7 @@ def setup_model_with_lora():
     return model, tokenizer
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='fine-tune binary classification using Mistral')
+    parser = argparse.ArgumentParser(description='fine-tune imp_exp classification using Mistral')
     parser.add_argument('--data_dir', type=str, 
                        default='../../data/jsonl/combined_imp_exp',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')

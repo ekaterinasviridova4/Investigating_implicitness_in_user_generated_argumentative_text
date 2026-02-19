@@ -1,0 +1,6 @@
+Labels: Implicature, Ambiguity, Presupposition, Explicit, O
+[[  2,   0,   0,   0,  45],
+ [  0,   0,   0,   0,  33],
+ [  0,   0,   0,   0,  38],
+ [  0,   0,   0, 144,  49],
+ [ 30,   0,   0, 178,   0]]

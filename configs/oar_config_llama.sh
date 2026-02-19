@@ -1,10 +1,10 @@
-NAME="your_name"
-PROJECT_NAME="your_project_name"
+NAME="llama_8b_micro_finetune_finegrained"
+PROJECT_NAME="test"
 HOME="/home/user"
-PROJECT_DIR="$HOME/path/to/project"
+PROJECT_DIR="$HOME/phd/test"
 EMAIL="user@example.com"
 LOGDIR="$HOME/logs"
-export HUGGINGFACE_HUB_TOKEN="your_huggingface_token"
+export HUGGINGFACE_HUB_TOKEN=$(cat /home/user/.huggingface/token)
 
 # Make sure the log directory exists
 mkdir -p "$LOGDIR"
@@ -30,7 +30,7 @@ OAR_OUT=$(oarsub \
     --notify "[ERROR,INFO]mail:$EMAIL" \
     "export HUGGINGFACE_HUB_TOKEN=$HUGGINGFACE_HUB_TOKEN; \
      module load conda; \
-     source /path/to/conda/bin/activate /path/to/conda/envs/llm-env; \
+     source /home/user/miniconda3/bin/activate /home/user/miniconda3/envs/llm-env; \
      
      echo 'Starting LLaMA 8B fine-tuning...'; \
      python3 src/training/mistral_7B_llama_8B_finetune_finegrained.py \
@@ -39,7 +39,7 @@ OAR_OUT=$(oarsub \
         --output_dir $OUTPUT_DIR; \
      
      echo 'Starting LLaMA 8B evaluation...'; \
-     python3 7B_Mistral_Llama/evaluate_finetuned_finegrained.py \
+     python3 src/evaluation/mistral_7B_llama_8B_evaluate_finegrained.py \
         --model_name $MODEL_NAME \
         --data_dir $DATA_DIR \
         --output_dir $OUTPUT_DIR \

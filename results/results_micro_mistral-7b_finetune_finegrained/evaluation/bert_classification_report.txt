@@ -1,0 +1,19 @@
+                precision    recall  f1-score   support
+
+   Implicature      0.062     0.043     0.051        47
+     Ambiguity      0.000     0.000     0.000        33
+Presupposition      0.000     0.000     0.000        38
+      Explicit      0.500     0.834     0.625       193
+             O      0.000     0.000     0.000       191
+
+      accuracy                          0.325       502
+     macro avg      0.113     0.175     0.135       502
+  weighted avg      0.198     0.325     0.245       502
+
+
+Labels: Implicature, Ambiguity, Presupposition, Explicit, O
+[[  2,   0,   0,   0,  45],
+ [  0,   0,   0,   0,  33],
+ [  0,   0,   0,   0,  38],
+ [  0,   0,   0, 161,  32],
+ [ 30,   0,   0, 161,   0]]

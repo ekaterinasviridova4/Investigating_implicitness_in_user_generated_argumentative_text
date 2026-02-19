@@ -1,0 +1,4 @@
+Documents compared: 20
+Total gold spans: 311
+Total pred spans: 290
+BERT matched spans (similarity≥0.8): 179

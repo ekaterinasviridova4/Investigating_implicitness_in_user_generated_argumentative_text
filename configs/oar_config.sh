@@ -1,10 +1,10 @@
-NAME="your_name"
-PROJECT_NAME="your_project_name"
+NAME="mistral__combined_imp_exp_finetune"
+PROJECT_NAME="test"
 HOME="/home/user"
-PROJECT_DIR="$HOME/path/to/project"
+PROJECT_DIR="$HOME/phd/test"
 EMAIL="user@example.com"
 LOGDIR="$HOME/logs"
-export HUGGINGFACE_HUB_TOKEN="your_huggingface_token"
+export HUGGINGFACE_HUB_TOKEN=$(cat /home/user/.huggingface/token)
 
 # Make sure the log directory exists
 mkdir -p "$LOGDIR"
@@ -26,15 +26,15 @@ OAR_OUT=$(oarsub \
     --notify "[ERROR,INFO]mail:$EMAIL" \
     "export HUGGINGFACE_HUB_TOKEN=$HUGGINGFACE_HUB_TOKEN; \
      module load conda; \
-     source /path/to/conda/bin/activate /path/to/conda/envs/llm-env; \
+     source /home/user/miniconda3/bin/activate /home/user/miniconda3/envs/llm-env; \
      echo 'Starting Mistral classification...'; \
      python3 src/training/mistral_24B_finetune_imp_exp.py \
         --data_dir data/jsonl/cmv_imp_exp \
-        --output_dir results_finetune_binary; \
-     python3 evaluate_mistral_finetuned_binary.py \
+        --output_dir results_finetune_imp_exp; \
+     python3 src/evaluation/mistral_24B_evaluate_imp_exp.py \
         --data_dir data/jsonl/cmv_imp_exp \
-        --output_dir results_finetune_binary \
-        --pred_dir results_finetune_binary/predictions \
+        --output_dir results_finetune_imp_exp \
+        --pred_dir results_finetune_imp_exp/predictions \
         --split test; \
      echo 'Mistral classification completed.'
     " \

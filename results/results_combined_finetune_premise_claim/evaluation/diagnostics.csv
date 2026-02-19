@@ -1,0 +1,466 @@
+doc_id,type,gold_label,pred_label,overlap,gold_text,pred_text
+0,MATCH,Premise,Premise,1.000,Capital punishment would be murder and would have to be punished with the death penalty itself.,Capital punishment would be murder and would have to be punished with the death penalty itself.
+0,MATCH,Premise,Premise,1.000,"If there were capital punishment, this would mean people are allowed to put themselves above others and rule over their lives.","If there were capital punishment, this would mean people are allowed to put themselves above others and rule over their lives."
+0,MATCH,Claim,Claim,1.000,Germany should by no means introduce capital punishment.,Germany should by no means introduce capital punishment.
+0,MATCH,Premise,Premise,0.818,"What, then, ought to be done with criminals who have committed truly awful crimes such as murder or rape - should they simply be allowed to live on","What, then, ought to be done with criminals who have committed truly awful crimes such as murder or rape - should they simply be allowed to live on although they have taken or destroyed another life?"
+0,MISS,Premise,O,0.000,although they have taken or destroyed another life?,
+0,MISS,Premise,O,0.000,"Yes, for it is a much graver punishment to be imprisoned forever and be tortured by one 's own thoughts than to be killed quickly and easily by an injection.",
+0,SPURIOUS,O,Claim,0.000,,"Yes, for it is a much graver punishment to be imprisoned forever and be tortured by one 's own thoughts than to be killed quickly and easily by an injection."
+1,MATCH,Premise,Premise,1.000,"Ditto that for every other domestic food animal, and even animals that we hunt for food","Ditto that for every other domestic food animal, and even animals that we hunt for food"
+1,MATCH,Premise,Premise,1.000,"No pain, no awareness, just cessation of life","No pain, no awareness, just cessation of life"
+1,MATCH,Premise,Premise,1.000,A bolt to the brain sounds bad,A bolt to the brain sounds bad
+1,MATCH,Premise,Premise,1.000,"If I were eating veggies, I 'd consume several plants","If I were eating veggies, I 'd consume several plants"
+1,MATCH,Premise,Premise,1.000,Are you seriously saying you consider slaughtering an animal morally equal to harvesting a crop?,Are you seriously saying you consider slaughtering an animal morally equal to harvesting a crop?
+1,MATCH,Premise,Premise,1.000,many of my pets are exotic and farm animals,many of my pets are exotic and farm animals
+1,MATCH,Premise,Premise,1.000,I work best when I 've had more to eat than a salad,I work best when I 've had more to eat than a salad
+1,MATCH,Premise,Premise,1.000,Nature is not pretty,Nature is not pretty
+1,MATCH,Premise,Premise,1.000,will stop responding when exposed to typical anasthetics,will stop responding when exposed to typical anasthetics
+1,MATCH,Premise,Premise,1.000,other plants that will actively tense up in response to needle pricks,other plants that will actively tense up in response to needle pricks
+1,MATCH,Premise,Premise,1.000,their nervous system is sufficiently different from us,their nervous system is sufficiently different from us
+1,MATCH,Premise,Premise,1.000,it has as little pain as we can deliver.,it has as little pain as we can deliver.
+1,MATCH,Premise,Premise,1.000,"Gory, but painless, as the pain center is instantly destroyed.","Gory, but painless, as the pain center is instantly destroyed."
+1,MATCH,Premise,Premise,1.000,"As far as I 'm aware, chickens at my local farm have their brains destroyed at the stem as quickly as possible while their head is chopped off.","As far as I 'm aware, chickens at my local farm have their brains destroyed at the stem as quickly as possible while their head is chopped off."
+1,MATCH,Premise,Premise,1.000,"Also, again, local farms and humane slaughtering, not factory farming.","Also, again, local farms and humane slaughtering, not factory farming."
+1,MATCH,Premise,Premise,1.000,bonded with them specifically because their utility functions are greater as companions than as meat,bonded with them specifically because their utility functions are greater as companions than as meat
+1,MATCH,Premise,Premise,1.000,"in the case of the dog, a symbiotic relationship involving feeding them scraps for protection against predators that their scent can pick up easier than our sight, particularly at night","in the case of the dog, a symbiotic relationship involving feeding them scraps for protection against predators that their scent can pick up easier than our sight, particularly at night"
+1,MATCH,Premise,Premise,1.000,we domesticated those pet animals for the purpose of companionship,we domesticated those pet animals for the purpose of companionship
+1,MATCH,Premise,Premise,1.000,I had to take my cat to be euthanised at the vet,I had to take my cat to be euthanised at the vet
+1,MATCH,Premise,Premise,1.000,"once the technology exists to 3D-print a chicken breast that tastes about as good as the real thing at an affordable price with 0 animal death, I eat that instead.","once the technology exists to 3D-print a chicken breast that tastes about as good as the real thing at an affordable price with 0 animal death, I eat that instead."
+1,MATCH,Premise,Premise,1.000,"I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values.","I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values."
+1,MATCH,Claim,Claim,1.000,"3. You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it.","3. You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it."
+1,MATCH,Claim,Claim,1.000,"2. You do n't care about animals, so you 're content with paying for them to be abused for your pleasure.","2. You do n't care about animals, so you 're content with paying for them to be abused for your pleasure."
+1,MATCH,Claim,Claim,1.000,1. You do n't agree with what is going on and stop supporting it.,1. You do n't agree with what is going on and stop supporting it.
+1,MATCH,Claim,Claim,1.000,The options are as follows,The options are as follows
+1,MATCH,Premise,Premise,0.963,there are plants that emit pheromones to alert other plants of an impending insect-predator 's presence and causes other plants in the area of the same type to activate defenses,are plants that emit pheromones to alert other plants of an impending insect-predator 's presence and causes other plants in the area of the same type to activate defenses
+1,MATCH,Premise,Premise,0.929,"they 'd die slowly and painfully of some disease that they have no hope of overcoming, or slowly and painfully of starvation after breaking a leg and falling behind their herd","At best they 'd die slowly and painfully of some disease that they have no hope of overcoming, or slowly and painfully of starvation after breaking a leg and falling behind their herd"
+1,MATCH,Premise,Premise,0.870,"chickens, pigs, deer, and cows would have their throats ripped out by weasels or wolves or whatever other predator.","At the best chickens, pigs, deer, and cows would have their throats ripped out by weasels or wolves or whatever other predator."
+1,MISS,Claim,O,0.000,I suspect this way of looking at it is still somewhat simplistic however,
+1,MISS,Claim,O,0.000,I buy all my meat from local farms that I know have free-range chickens and cows that are grass-fed and well-treated until they are humanely slaughtered,
+1,MISS,Claim,O,0.000,I personally do n't see any distinction between my pet dog and a chicken.,
+1,MISS,Claim,O,0.000,I would never consider his throat being sliced by a machine as he hung upside down as humane treatment.,
+1,MISS,Claim,O,0.000,Probably not even a bolt to the brain either.,
+1,MISS,Claim,O,0.000,I agree that synthetic meat would be absolutely amazing though!,
+1,MISS,Claim,O,0.000,I do see a distinction between a pet and livestock,
+1,MISS,Claim,O,0.000,Chickens simply are n't.,
+1,MISS,Claim,O,0.000,I would n't want to witness it,
+1,MISS,Claim,O,0.000,"I would accept that as a humane death ( as humane as we can make death, anyway)",
+1,MISS,Claim,O,0.000,a better way would be a proper Brompton Cocktail,
+1,MISS,Premise,O,0.000,"that would taint meat, and so is unfeasible",
+1,MISS,Claim,O,0.000,here is the big problem I have,
+1,MISS,Claim,O,0.000,It is literally impossible for me to live without other things dying.,
+1,MISS,Claim,O,0.000,I wish it were n't so,
+1,MISS,Claim,O,0.000,it is,
+1,MISS,Premise,O,0.000,"Carrots get eaten or boiled alive and we have no evidence that suggests, one way or another, if that is causing them suffering",
+1,MISS,Claim,O,0.000,we would n't know what we were looking for,
+1,MISS,Claim,O,0.000,"when plants behave in an animal-like manner, they can and do respond to some sort of pain stimuli.",
+1,MISS,Claim,O,0.000,"So, I do n't consider plants to be necessarily more moral.",
+1,MISS,Claim,O,0.000,I find death by human to be more humane than death by any other cause that most game or livestock animals could hope for,
+1,MISS,Claim,O,0.000,At the best,
+1,MISS,Claim,O,0.000,At best,
+1,MISS,Claim,O,0.000,we should be working to improve it,
+1,MISS,Claim,O,0.000,future animals benefit more by my consumption of meat than they would if I was trying to go vegetarian / vegan,
+1,MISS,Claim,O,0.000,I may have a different stance on seeing no difference between companion animals and farm animals,
+1,MISS,Premise,O,0.000,we have domesticated some animals,
+1,MISS,Claim,O,0.000,does not mean they suffer any differently to their wild cousins.,
+1,MISS,Claim,O,0.000,"I consider my 1 chicken/2 days to be morally equivalent to the 8 heads of lettuce / day it would take me to get the same basic caloric intake ( note: I do n't have any real accuracy for the amount per day, just a rough guesstimation) to be about morally equal.",
+1,MISS,Claim,O,0.000,A sheep with a shepherd is many times less likely to have its throat ripped out by a wolf and having its last experience on earth be something as gruesome as the beginnings of being eaten.,
+1,MISS,Claim,O,0.000,there is nothing past that instant,
+1,MISS,Claim,O,0.000,at the very least we are less vicious than other predators in that we wait until the animal is definitely dead before we start eating it,
+1,MISS,Claim,O,0.000,I 'm not arguing that death at the hands of humans is better than living on,
+1,MISS,Claim,O,0.000,living on is better than just about any death,
+1,MISS,Claim,O,0.000,"I 'm arguing that of the potential ways to die, being killed is the best an animal can realistically hope for",
+1,SPURIOUS,O,Premise,0.000,,I suspect this way of looking at it is still somewhat simplistic
+1,SPURIOUS,O,Premise,0.000,,however I buy all my meat from local farms that I know have free-range chickens and cows that are grass-fed and well-treated until they are humanely slaughtered
+1,SPURIOUS,O,Premise,0.000,,I personally do n't see any distinction between my pet dog and a chicken.
+1,SPURIOUS,O,Premise,0.000,,I would never consider his throat being sliced by a machine as he hung upside down as humane treatment.
+1,SPURIOUS,O,Premise,0.000,,Probably not even a bolt to the brain either.
+1,SPURIOUS,O,Premise,0.000,,I agree that synthetic meat would be absolutely amazing though!
+1,SPURIOUS,O,Premise,0.000,,I do see a distinction between a pet and livestock
+1,SPURIOUS,O,Premise,0.000,,Chickens simply are n't.
+1,SPURIOUS,O,Premise,0.000,,I would n't want to witness it
+1,SPURIOUS,O,Premise,0.000,,I would accept that as a humane death
+1,SPURIOUS,O,Premise,0.000,,"( as humane as we can make death, anyway)"
+1,SPURIOUS,O,Premise,0.000,,"a better way would be a proper Brompton Cocktail that would taint meat, and so is unfeasible"
+1,SPURIOUS,O,Premise,0.000,,here is the big problem
+1,SPURIOUS,O,Premise,0.000,,I have
+1,SPURIOUS,O,Premise,0.000,,It is literally impossible for me to live without other things dying.
+1,SPURIOUS,O,Premise,0.000,,I wish it were n't so
+1,SPURIOUS,O,Premise,0.000,,it is
+1,SPURIOUS,O,Premise,0.000,,Carrots get eaten or boiled alive
+1,SPURIOUS,O,Premise,0.000,,"and we have no evidence that suggests, one way or another, if that is causing them suffering"
+1,SPURIOUS,O,Premise,0.000,,we would n't know what we were looking for there
+1,SPURIOUS,O,Premise,0.000,,"when plants behave in an animal-like manner, they can and do respond to some sort of pain stimuli."
+1,SPURIOUS,O,Premise,0.000,,"So, I do n't consider plants to be necessarily more moral."
+1,SPURIOUS,O,Premise,0.000,,I find death by human to be more humane than death by any other cause
+1,SPURIOUS,O,Premise,0.000,,that most game or livestock animals could hope for
+1,SPURIOUS,O,Premise,0.000,,we should be working to improve it
+1,SPURIOUS,O,Premise,0.000,,future animals benefit more by my consumption of meat than they would if I was trying to go vegetarian / vegan
+1,SPURIOUS,O,Premise,0.000,,I may have a different stance on seeing no difference between companion animals and farm animals
+1,SPURIOUS,O,Premise,0.000,,we have domesticated some animals does not mean they suffer any differently to their wild cousins.
+1,SPURIOUS,O,Premise,0.000,,I consider my 1 chicken/2 days to be morally equivalent to the 8 heads of lettuce / day it would take me to get the same basic caloric intake
+1,SPURIOUS,O,Premise,0.000,,"( note: I do n't have any real accuracy for the amount per day, just a rough guesstimation)"
+1,SPURIOUS,O,Premise,0.000,,to be about morally equal.
+1,SPURIOUS,O,Premise,0.000,,A sheep with a shepherd is many times less likely to have its throat ripped out by a wolf
+1,SPURIOUS,O,Premise,0.000,,and having its last experience on earth be something as gruesome as the beginnings of being eaten.
+1,SPURIOUS,O,Premise,0.000,,there is nothing past that instant
+1,SPURIOUS,O,Premise,0.000,,at the very least we are less vicious than other predators in that we wait until the animal is definitely dead before we start eating it
+1,SPURIOUS,O,Premise,0.000,,I 'm not arguing that death at the hands of humans is better than living on
+1,SPURIOUS,O,Premise,0.000,,living on is better than just about any death
+1,SPURIOUS,O,Premise,0.000,,"I 'm arguing that of the potential ways to die, being killed is the best an animal can realistically hope for"
+2,MATCH,Premise,Premise,1.000,"Of course, first they 'd actually need to be caught in the act by public order officers,","Of course, first they 'd actually need to be caught in the act by public order officers,"
+2,MATCH,Claim,Claim,1.000,"Higher fines are therefore the right measure against negligent, lazy or simply thoughtless dog owners.","Higher fines are therefore the right measure against negligent, lazy or simply thoughtless dog owners."
+2,MATCH,Premise,Premise,1.000,And when bad luck does strike and you step into one of the many' land mines' you have to painstakingly scrape the remains off your soles.,And when bad luck does strike and you step into one of the many' land mines' you have to painstakingly scrape the remains off your soles.
+2,MATCH,Premise,Premise,1.000,One can hardly move in Friedrichshain or Neukölln these days without permanently scanning the ground for dog dirt.,One can hardly move in Friedrichshain or Neukölln these days without permanently scanning the ground for dog dirt.
+2,MISS,Premise,O,0.000,"but once they have to dig into their pockets, their laziness will sure vanish!",
+2,SPURIOUS,O,Claim,0.000,,"but once they have to dig into their pockets, their laziness will sure vanish!"
+3,MATCH,Claim,Claim,1.000,That was terrific.,That was terrific.
+3,MATCH,Claim,Claim,1.000,This is exactly the kind of explanation I was looking for.,This is exactly the kind of explanation I was looking for.
+3,MATCH,Claim,Claim,1.000,that even if culture helped start that norm it eventually becomes the religion that causes the actions.,that even if culture helped start that norm it eventually becomes the religion that causes the actions.
+3,MATCH,Claim,Claim,1.000,I think in those cases we can both say that the religion is inherently violent,I think in those cases we can both say that the religion is inherently violent
+3,MATCH,Claim,Claim,1.000,"once that religion is established as the capital-T Truth, the tail begins wagging the dog and culture shifts to accomodate and protect that Truth.","once that religion is established as the capital-T Truth, the tail begins wagging the dog and culture shifts to accomodate and protect that Truth."
+3,MATCH,Claim,Claim,1.000,You are probably right that cultural norms are extremely influential in the creation of a religion,You are probably right that cultural norms are extremely influential in the creation of a religion
+3,MATCH,Premise,Premise,1.000,Aztecs required human sacrifice in their religious rituals.,Aztecs required human sacrifice in their religious rituals.
+3,MATCH,Premise,Premise,1.000,The Thuggee cult believed that the murder of innocents was necessary to appease Kali and prevent the destruction of the world.,The Thuggee cult believed that the murder of innocents was necessary to appease Kali and prevent the destruction of the world.
+3,MATCH,Premise,Premise,1.000,Vikings believed that the highest achievement and best place in the afterlife were gained by dying bravely in battle.,Vikings believed that the highest achievement and best place in the afterlife were gained by dying bravely in battle.
+3,MATCH,Claim,Claim,1.000,that does not mean that a religion can not have violence as an integral part of it,that does not mean that a religion can not have violence as an integral part of it
+3,MATCH,Premise,Premise,1.000,"how much is caused by angry, politically disenfranchised young men who seek out an ideology that justifies their anger with America / the West","how much is caused by angry, politically disenfranchised young men who seek out an ideology that justifies their anger with America / the West"
+3,MATCH,Premise,Premise,1.000,e.g. how much of the violence perpetrated by Wahabist Islamists is based off of true religious fanaticism,e.g. how much of the violence perpetrated by Wahabist Islamists is based off of true religious fanaticism
+3,MATCH,Claim,Claim,1.000,Most branches of modern religions are n't inherently violent,Most branches of modern religions are n't inherently violent
+3,MATCH,Claim,Claim,1.000,I think that most Jewish people do n't want to stone adulterers and most Muslims do n't want to stone non believers.,I think that most Jewish people do n't want to stone adulterers and most Muslims do n't want to stone non believers.
+3,MATCH,Claim,Claim,1.000,"my belief is that while religion can inform the views of people, it is far more likely that religion will be used to justify actions that would have been executed any way.","my belief is that while religion can inform the views of people, it is far more likely that religion will be used to justify actions that would have been executed any way."
+3,MATCH,Premise,Premise,1.000,"For example, Congregationalists and Universaliists.","For example, Congregationalists and Universaliists."
+3,MISS,Claim,O,0.000,"I point out that many Christians follow the bible which has numerous examples of sexism, but in application, there are numerous branches of Christianity that are no more sexist than secular groups.",
+3,MISS,Claim,O,0.000,there are complex socio-political issues involving the ones that are,
+3,MISS,Premise,O,0.000,Perhaps some facets of these historical religions were based off of a desire to justify actions that the original practitioners would have done anyway,
+3,MISS,Premise,O,0.000,the belief eventually becomes the driving force and incentive for the action in later generations.,
+3,MISS,Premise,O,0.000,"Many religions have historically encouraged, or even required violence, and once that religion and it 's expectation of violence is established, it makes it much more difficult to enact societal change on the group.",
+3,MISS,Premise,O,0.000,"It 's hard enough to change a social norm of violence when it 's simply cultural, it 's even harder if people have been conditioned to believe that the norm is all that stands in the way of preventing the end of the world or is a persons only way into Valhalla.",
+3,MISS,Premise,O,0.000,You 've appealed to all my sensibilities around this kind of issue,
+3,SPURIOUS,O,Claim,0.000,,"I point out that many Christians follow the bible which has numerous examples of sexism,"
+3,SPURIOUS,O,Premise,0.000,,"but in application, there are numerous branches of Christianity that are no more sexist than secular groups."
+3,SPURIOUS,O,Premise,0.000,,there are complex socio-political issues involving the ones that are
+3,SPURIOUS,O,Claim,0.000,,Perhaps some facets of these historical religions were based off of a desire to justify actions that the original practitioners would have done anyway
+3,SPURIOUS,O,Claim,0.000,,the belief eventually becomes the driving force and incentive for the action in later generations.
+3,SPURIOUS,O,Claim,0.000,,"Many religions have historically encouraged, or even required violence,"
+3,SPURIOUS,O,Claim,0.000,,"and once that religion and it 's expectation of violence is established, it makes it much more difficult to enact societal change on the group."
+3,SPURIOUS,O,Claim,0.000,,"It 's hard enough to change a social norm of violence when it 's simply cultural,"
+3,SPURIOUS,O,Claim,0.000,,it 's even harder if people have been conditioned to believe that the norm is all that stands in the way of preventing the end of the world or is a persons only way into Valhalla.
+3,SPURIOUS,O,Claim,0.000,,You 've appealed to all my sensibilities around this kind of issue
+4,MATCH,Premise,Premise,1.000,But surely these costs could be covered by a minimal increase in rent over the course of the entire lease.,But surely these costs could be covered by a minimal increase in rent over the course of the entire lease.
+4,MATCH,Premise,Premise,1.000,Clearly the landlord has to pay for some repairs before a new lease.,Clearly the landlord has to pay for some repairs before a new lease.
+4,MATCH,Claim,Claim,1.000,It is unfair and unjustifiable that new tenants have to pay a much higher rent than previous residents.,It is unfair and unjustifiable that new tenants have to pay a much higher rent than previous residents.
+4,MISS,Claim,O,0.000,All the more so as for an adequate profit the rental rate as compared to the base rent need not be raised for every new lease.,
+4,SPURIOUS,O,Premise,0.000,,All the more so as for an adequate profit the rental rate as compared to the base rent need not be raised for every new lease.
+5,MATCH,Claim,Claim,1.000,the EU should intervene right away.,the EU should intervene right away.
+5,MATCH,Premise,Premise,1.000,"Since, however, in Russia besides gas and oil only propaganda and corruption rule,","Since, however, in Russia besides gas and oil only propaganda and corruption rule,"
+5,MATCH,Premise,Premise,1.000,"as long as the motivation of those people is n't triggered by propaganda, corruption and military pressure.","as long as the motivation of those people is n't triggered by propaganda, corruption and military pressure."
+5,MATCH,Premise,Premise,1.000,"It 's to be noted that in our civilized world, in a democratic country, the people can determine their own fate,","It 's to be noted that in our civilized world, in a democratic country, the people can determine their own fate,"
+5,MATCH,Claim,Claim,1.000,A violation of international law should be more than enough to consider a reaction!,A violation of international law should be more than enough to consider a reaction!
+5,MISS,Premise,O,0.000,"Humanity has made enough mistakes throughout history by waiting too long, and when it has finally reacted, the only remaining option has usually been war.",
+5,SPURIOUS,O,Premise,0.000,,"Humanity has made enough mistakes throughout history by waiting too long,"
+5,SPURIOUS,O,Premise,0.000,,"and when it has finally reacted, the only remaining option has usually been war."
+6,MATCH,Claim,Claim,1.000,"After the new BER Airport has been commissioned, Tegel should definitely be closed.","After the new BER Airport has been commissioned, Tegel should definitely be closed."
+6,MATCH,Premise,Premise,1.000,These areas will be upgraded economically due to these factors ( housing health and employment).,These areas will be upgraded economically due to these factors ( housing health and employment).
+6,MATCH,Premise,Premise,1.000,Closing down Tegel will have health benefits for hundreds of thousands in the approach path.,Closing down Tegel will have health benefits for hundreds of thousands in the approach path.
+6,MATCH,Premise,Premise,1.000,"Also, Berlin urgently needs inner-city areas for business and industry, and for housing.","Also, Berlin urgently needs inner-city areas for business and industry, and for housing."
+6,MATCH,Premise,Premise,1.000,For safety reasons alone I find continued operation wrong.,For safety reasons alone I find continued operation wrong.
+6,MISS,Premise,O,0.000,I think Berlin with its two inner-city airports was lucky not having to experience an airplane catastrophe for decades.,
+6,SPURIOUS,O,Claim,0.000,,I think Berlin with its two inner-city airports was lucky not having to experience an airplane catastrophe for decades.
+7,MATCH,Claim,Claim,1.000,"Good point none-the-less, but I disagree","Good point none-the-less, but I disagree"
+7,MATCH,Claim,Claim,1.000,"If that was a good basis for having a huge population, India would be a superpower","If that was a good basis for having a huge population, India would be a superpower"
+7,MATCH,Claim,Claim,1.000,"Simply speaking, one person can set in motion drastic change for an entire nation","Simply speaking, one person can set in motion drastic change for an entire nation"
+7,MATCH,Claim,Claim,1.000,Modern technology like the internet must be considered,Modern technology like the internet must be considered
+7,MATCH,Claim,Claim,1.000,This is to be considered if one is convinced that having a higher population coming from none-abortions results in a strain for resources in the country,This is to be considered if one is convinced that having a higher population coming from none-abortions results in a strain for resources in the country
+7,MATCH,Claim,Claim,1.000,Then there was the debate as to whether or not a larger population with less resources per person is more innovative than a smaller one,Then there was the debate as to whether or not a larger population with less resources per person is more innovative than a smaller one
+7,MATCH,Claim,Claim,1.000,would having a higher population from none-abortion just add on to the problems of a world going to shit,would having a higher population from none-abortion just add on to the problems of a world going to shit
+7,MATCH,Claim,Claim,1.000,Is a more highly populated and economically productive America today going to result in an America tomorrow that can handle over population problems,Is a more highly populated and economically productive America today going to result in an America tomorrow that can handle over population problems
+7,MATCH,Claim,Claim,1.000,this discussion is abstract enough to go into some weird places and that it is necessary to have a stopping point,this discussion is abstract enough to go into some weird places and that it is necessary to have a stopping point
+7,MATCH,Claim,Claim,1.000,"Mexicans are the supreme race, native Americans will go extinct through abortion and then out-breeding.","Mexicans are the supreme race, native Americans will go extinct through abortion and then out-breeding."
+7,MATCH,Claim,Claim,1.000,This holds true even if illegal immigration is an overall plus to the countries value,This holds true even if illegal immigration is an overall plus to the countries value
+7,MATCH,Claim,Claim,1.000,Perhaps the immigration of illegals is lowering the value of blue collar work and makes it harder for the borderline impoverished citizens to provide for their children,Perhaps the immigration of illegals is lowering the value of blue collar work and makes it harder for the borderline impoverished citizens to provide for their children
+7,MATCH,Claim,Claim,1.000,it would have been preferable to have our abortions alive,it would have been preferable to have our abortions alive
+7,MATCH,Claim,Claim,1.000,Its a complicated issue,Its a complicated issue
+7,MATCH,Claim,Claim,1.000,"One possibility is that there would be wars waged to try to kill them all, perhaps even with other countries with similar problems","One possibility is that there would be wars waged to try to kill them all, perhaps even with other countries with similar problems"
+7,MATCH,Claim,Claim,1.000,"Various ways to lower a resource negative population would have to be explored, if not because of this 55 million, then because of the next 55 million","Various ways to lower a resource negative population would have to be explored, if not because of this 55 million, then because of the next 55 million"
+7,MATCH,Claim,Claim,1.000,"These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up","These people would have been raised by their incompetent parents to drain down society, increase crime rates, suck up resources, and generally screw things up"
+7,MATCH,Premise,Premise,1.000,Something in the ballpark of 45 % of women who have abortions have more than one abortion,Something in the ballpark of 45 % of women who have abortions have more than one abortion
+7,MISS,Premise,O,0.000,There have been 55 million abortions in the US since 1973,
+7,MISS,Claim,O,0.000,"with the internet taken into account, your answer could be true)",
+7,MISS,Premise,O,0.000,"Waging war to purposefully lower population, even with a country facing similar issues, would cost not only resources, but it would also cause political, cultural, and global issues",
+7,MISS,Premise,O,0.000,America 's innovation and education rankings would be lower,
+7,MISS,Premise,O,0.000,Every middle-class child in the country would receive a lower quality education if there were 55 million more around,
+7,MISS,Premise,O,0.000,"Without the extra population from abortions, has there been proportionately more immigration to fill labor needs, or are the millions of illegals from Mexico as likely to be so numerous even if there was a higher none-abortion population",
+7,MISS,Premise,O,0.000,Does n't immigration of a working class citizen on such a massive scale cause dissonance in a country more so than it does cultural exchange,
+7,MISS,Premise,O,0.000,"Or are we talking about a population so huge that race and national identity are insignificant, that there is always going to be a huge amount of hostility between different demographics",
+7,MISS,Claim,O,0.000,Its debatable how many women are having abortions due to financial reasons,
+7,MISS,Premise,O,0.000,surely its a significant number,
+7,MISS,Premise,O,0.000,how many of these women would n't be having financial troubles if there was n't competition from cheap illegal labor to keep wages lower,
+7,MISS,Premise,O,0.000,An aborted fetus is likely to have been a less productive person than a never-considered-for-abortion fetus,
+7,MISS,Claim,O,0.000,"in an industrial society, its likely that these abortions would still be more productive than not",
+7,MISS,Premise,O,0.000,55 million chances to do so is n't a bad place to start.,
+7,MISS,Premise,O,0.000,"( should be noted that India has less internet users and that the availibilty of the internet may play a huge part in people with less wealth being able to be innovative,",
+7,SPURIOUS,O,Claim,0.000,,There have been 55 million abortions in the US since 1973
+7,SPURIOUS,O,Claim,0.000,,"Waging war to purposefully lower population, even with a country facing similar issues, would cost not only resources, but it would also cause political, cultural, and global issues"
+7,SPURIOUS,O,Claim,0.000,,America 's innovation and education rankings would be lower
+7,SPURIOUS,O,Claim,0.000,,Every middle-class child in the country would receive a lower quality education if there were 55 million more around
+7,SPURIOUS,O,Claim,0.000,,"Without the extra population from abortions, has there been proportionately more immigration to fill labor needs, or are the millions of illegals from Mexico as likely to be so numerous even if there was a higher none-abortion population"
+7,SPURIOUS,O,Claim,0.000,,Does n't immigration of a working class citizen on such a massive scale cause dissonance in a country more so than it does cultural exchange
+7,SPURIOUS,O,Claim,0.000,,"Or are we talking about a population so huge that race and national identity are insignificant, that there is always going to be a huge amount of hostility between different demographics"
+7,SPURIOUS,O,Claim,0.000,,Its debatable how many women are having abortions due to financial reasons surely its a significant number
+7,SPURIOUS,O,Claim,0.000,,how many of these women would n't be having financial troubles if there was n't competition from cheap illegal labor to keep wages lower
+7,SPURIOUS,O,Claim,0.000,,"An aborted fetus is likely to have been a less productive person than a never-considered-for-abortion fetus in an industrial society, its likely that these abortions would still be more productive than not"
+7,SPURIOUS,O,Claim,0.000,,55 million chances to do so is n't a bad place to start.
+7,SPURIOUS,O,Premise,0.000,,"( should be noted that India has less internet users and that the availibilty of the internet may play a huge part in people with less wealth being able to be innovative, with the internet taken into account, your answer could be true)"
+8,MATCH,Claim,Claim,1.000,"If there must be rent increases, there should also be a cap to avoid nasty surprises.","If there must be rent increases, there should also be a cap to avoid nasty surprises."
+8,MATCH,Premise,Premise,1.000,With those kinds of amounts you think twice about whether you really want to stay in the flat.,With those kinds of amounts you think twice about whether you really want to stay in the flat.
+8,MISS,Premise,O,0.000,"Rent increases upon re-letting are n't bad as such, if it 's only a small amount,",
+8,MISS,Premise,O,0.000,"they’re very bad however, if the rent suddenly climbs by €100 or €200.",
+8,MISS,Premise,O,0.000,"This helps the landlords,",
+8,MISS,Premise,O,0.000,"as they can adjust their expenses through the increase,",
+8,MISS,Premise,O,0.000,"and also the tenants,",
+8,MISS,Premise,O,0.000,as they can plan for a maximum rent increase.,
+8,MISS,Premise,O,0.000,"That the landlords are then slightly restricted in the administration of their property is not a problem,",
+8,MISS,Premise,O,0.000,as they have more pull in the end anyway.,
+8,SPURIOUS,O,Claim,0.000,,"Rent increases upon re-letting are n't bad as such,"
+8,SPURIOUS,O,Premise,0.000,,"if it 's only a small amount,"
+8,SPURIOUS,O,Claim,0.000,,"they’re very bad however,"
+8,SPURIOUS,O,Premise,0.000,,if the rent suddenly climbs by €100 or €200.
+8,SPURIOUS,O,Premise,0.000,,"This helps the landlords, as they can adjust their expenses through the increase, and also the tenants, as they can plan for a maximum rent increase."
+8,SPURIOUS,O,Premise,0.000,,"That the landlords are then slightly restricted in the administration of their property is not a problem, as they have more pull in the end anyway."
+9,MATCH,Premise,Premise,1.000,On the other hand I work with Free Software on a daily basis,On the other hand I work with Free Software on a daily basis
+9,MATCH,Premise,Premise,1.000,"Just like the Industrial revolution forced feudal and mercantile agriculturalist societies to become capitalist ones,","Just like the Industrial revolution forced feudal and mercantile agriculturalist societies to become capitalist ones,"
+9,MATCH,Premise,Premise,1.000,the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes.,the some few people that still know how to hunt and gather would probably survive as well people who were rich enough to have access to a lot of resources to start out with before the economy crashes.
+9,MATCH,Premise,Premise,1.000,https: //www.youtube.com/watch? v=rlQrYCacrKo,https: //www.youtube.com/watch? v=rlQrYCacrKo
+9,MATCH,Premise,Premise,1.000,There is also a Youtube video to go with this opinion.,There is also a Youtube video to go with this opinion.
+9,MATCH,Claim,Claim,1.000,Bill Gade presents the argument better than I do so I will just quote him.,Bill Gade presents the argument better than I do so I will just quote him.
+9,MISS,Claim,O,0.000,"I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not, I just have not been able to beat it myself.",
+9,MISS,Claim,O,0.000,I do disagree with Gade a little bit.,
+9,MISS,Claim,O,0.000,"I do n't think it would kill everybody,",
+9,MISS,Claim,O,0.000,I probably believe this because I listen to Alex Jones too much.,
+9,MISS,Claim,O,0.000,~~slaves~~ robots,
+9,MISS,Claim,O,0.000,"Automation is a slow process that will take decades, and end up revolutionizing our economic structure and way of life.",
+9,MISS,Claim,O,0.000,the Automation revolution will force capitalist economies to become socialist ones.,
+9,MISS,Claim,O,0.000,On one hand the trend if confirmed would be consistent with Karl Marx 's prediction.,
+9,MISS,Claim,O,0.000,it seems more capitalist than anything.,
+9,SPURIOUS,O,Premise,0.000,,"I do realize that this is a very unhealthy idea to have whether or not that the idea is true or not,"
+9,SPURIOUS,O,Premise,0.000,,I just have not been able to beat it myself.
+9,SPURIOUS,O,Premise,0.000,,I do disagree with Gade a little bit.
+9,SPURIOUS,O,Premise,0.000,,"I do n't think it would kill everybody,"
+9,SPURIOUS,O,Premise,0.000,,I probably believe this because I listen to Alex Jones too much.
+9,SPURIOUS,O,Premise,0.000,,~~slaves~~ robots
+9,SPURIOUS,O,Premise,0.000,,"Automation is a slow process that will take decades,"
+9,SPURIOUS,O,Premise,0.000,,and end up revolutionizing our economic structure and way of life.
+9,SPURIOUS,O,Premise,0.000,,the Automation revolution will force capitalist economies to become socialist ones.
+9,SPURIOUS,O,Premise,0.000,,On one hand the trend if confirmed would be consistent with Karl Marx 's prediction.
+9,SPURIOUS,O,Premise,0.000,,it seems more capitalist than anything.
+10,MATCH,Claim,Claim,1.000,That 's why the statutory health insurance companies should not cover such treatments.,That 's why the statutory health insurance companies should not cover such treatments.
+10,MATCH,Premise,Premise,1.000,However there is no substantiated data that this healing is n't simply due to the placebo effect.,However there is no substantiated data that this healing is n't simply due to the placebo effect.
+10,MATCH,Premise,Premise,1.000,Many people see proven relief of their symptoms and complaints by complementary medicine.,Many people see proven relief of their symptoms and complaints by complementary medicine.
+10,MISS,Premise,O,0.000,"Besides many practices in this field are not regulated professions,",
+10,MISS,Premise,O,0.000,which means that quacks and phonies can practice these occupations unknown to the patients.,
+10,MISS,Premise,O,0.000,It would be conceivable to invest more into the training and control of this occupation sector on the part of the state.,
+10,SPURIOUS,O,Premise,0.000,,"Besides many practices in this field are not regulated professions, which means that quacks and phonies can practice these occupations unknown to the patients."
+10,SPURIOUS,O,Claim,0.000,,It would be conceivable to invest more into the training and control of this occupation sector on the part of the state.
+11,MATCH,Claim,Claim,1.000,Therefore universities should not charge tuition fees in Germany.,Therefore universities should not charge tuition fees in Germany.
+11,MISS,Claim,O,0.000,Every German citizen has a right to education.,
+11,MISS,Premise,O,0.000,"Quality at universities has its price,",
+11,MISS,Claim,O,0.000,which is why students also ought to be involved in this cost factor.,
+11,MISS,Claim,O,0.000,But education must not be a question of money in a wealthy society such as Germany.,
+11,SPURIOUS,O,Premise,0.000,,Every German citizen has a right to education.
+11,SPURIOUS,O,Premise,0.000,,"Quality at universities has its price, which is why students also ought to be involved in this cost factor."
+11,SPURIOUS,O,Premise,0.000,,But education must not be a question of money in a wealthy society such as Germany.
+12,MATCH,Premise,Premise,1.000,"Interviews are an extremely poor replacement actually working with someone, or for the opinion of a trusted colleague.","Interviews are an extremely poor replacement actually working with someone, or for the opinion of a trusted colleague."
+12,MATCH,Premise,Premise,1.000,"If all of this time and money goes towards a bad hire, that is an extremely bad thing for the business, which means that it 's extremely important to minimize the number of bad hires.","If all of this time and money goes towards a bad hire, that is an extremely bad thing for the business, which means that it 's extremely important to minimize the number of bad hires."
+12,MATCH,Premise,Premise,1.000,"Then, after they start working, they have to be trained, and get up to speed on their new job, which ( depending on the job) can often take months.","Then, after they start working, they have to be trained, and get up to speed on their new job, which ( depending on the job) can often take months."
+12,MATCH,Premise,Premise,1.000,"Simply getting an employee in the door often costs about 1 years worth of their salary, with that money going to the recruiters that found the person, paying people to review their resume, interview them, do background checks, etc.","Simply getting an employee in the door often costs about 1 years worth of their salary, with that money going to the recruiters that found the person, paying people to review their resume, interview them, do background checks, etc."
+12,MATCH,Premise,Premise,1.000,"Any company / society which encourages business practices that are not effective will quickly be out-competed by one that is effective, and having effective businesses in a society in general improves the quality of life of the people living there.","Any company / society which encourages business practices that are not effective will quickly be out-competed by one that is effective, and having effective businesses in a society in general improves the quality of life of the people living there."
+12,MATCH,Premise,Premise,1.000,"Being fair is, at best, a secondary goal.","Being fair is, at best, a secondary goal."
+12,MATCH,Premise,Premise,1.000,Businesses are and should be designed to be effective.,Businesses are and should be designed to be effective.
+12,MATCH,Premise,Premise,1.000,"`` Fix the process, not the game. ''","`` Fix the process, not the game. ''"
+12,MATCH,Premise,Premise,1.000,"If the egalitarian hiring process in-place is so ineffective at determining qualifications / character that it must depend on recommendations from trusted sources to establish merit, the productivity of any positions where such a trusted source does not come forward will suffer.","If the egalitarian hiring process in-place is so ineffective at determining qualifications / character that it must depend on recommendations from trusted sources to establish merit, the productivity of any positions where such a trusted source does not come forward will suffer."
+12,MATCH,Premise,Premise,1.000,"This decreases social / economic mobility, which has been demonstrated to be bad for societies in general.","This decreases social / economic mobility, which has been demonstrated to be bad for societies in general."
+12,MATCH,Claim,Claim,1.000,Businesses and societies would be better off disallowing networking from influencing their hiring decisions.,Businesses and societies would be better off disallowing networking from influencing their hiring decisions.
+12,MATCH,Premise,Premise,1.000,Allowing networking to influence a hiring decision is not dependent on cultural bias and may be safely exorcised from the hiring process to render it more fair,Allowing networking to influence a hiring decision is not dependent on cultural bias and may be safely exorcised from the hiring process to render it more fair
+12,MATCH,Premise,Premise,1.000,Individuals who are extraordinarily qualified for a position but come from a region / social background without those connections enter a networking-friendly employment opportunity at a disadvantage.,Individuals who are extraordinarily qualified for a position but come from a region / social background without those connections enter a networking-friendly employment opportunity at a disadvantage.
+12,MATCH,Premise,Premise,1.000,"Beyond straight nepotism, it is self-evident that individuals who come from families and backgrounds which allow for more interaction with individuals in power will be able to call on more of those individuals for networking purposes.","Beyond straight nepotism, it is self-evident that individuals who come from families and backgrounds which allow for more interaction with individuals in power will be able to call on more of those individuals for networking purposes."
+12,MATCH,Premise,Premise,1.000,"This is a failing of the existing job application paradigm, not an excuse to circumvent it in order to make the process easier.","This is a failing of the existing job application paradigm, not an excuse to circumvent it in order to make the process easier."
+12,MATCH,Premise,Premise,1.000,Allowing someone to circumvent the standard application process ( `` jumping the line '') or to use some important person 's recommendation as additional clout for their application ( `` came very highly recommended by Bob '') is preferential treatment for irrelevant qualities.,Allowing someone to circumvent the standard application process ( `` jumping the line '') or to use some important person 's recommendation as additional clout for their application ( `` came very highly recommended by Bob '') is preferential treatment for irrelevant qualities.
+12,MATCH,Premise,Premise,1.000,"Who an applicant knows is occasionally useful for those jobs which require maintaining relationships with certain people in key positions ( e.g. sales), but for the vast majority of jobs, who your friends are is functionally irrelevant.","Who an applicant knows is occasionally useful for those jobs which require maintaining relationships with certain people in key positions ( e.g. sales), but for the vast majority of jobs, who your friends are is functionally irrelevant."
+12,MATCH,Premise,Premise,1.000,A `` standard '' hiring method would ensure that every applicant would be evaluated on the same criteria - the satisfaction of requirements of the position and merits relevant to that position.,A `` standard '' hiring method would ensure that every applicant would be evaluated on the same criteria - the satisfaction of requirements of the position and merits relevant to that position.
+12,MATCH,Claim,Claim,1.000,Networking is discriminatory.,Networking is discriminatory.
+12,MISS,Claim,O,0.000,"I recognize and appreciate that it is difficult in most employment processes to find individuals who are trustworthy, socially apt, etc.",
+12,MISS,Claim,O,0.000,"Networking, as a practice, favors individuals who come from already socially favorable situations, moreso than other evaluation criteria.",
+12,MISS,Claim,O,0.000,"there are other unfair advantages an applicant might have ( being tall, white, male, etc.).",
+12,MISS,Claim,O,0.000,"If a hiring process takes networking into account, it is necessarily showing preference to individuals who already come from advantaged background, as per 2.",
+12,MISS,Claim,O,0.000,"`` this is how the world works, '' and many feel at ease participating in networking events without any moral qualms",
+12,MISS,Claim,O,0.000,"I 'm not going to challenge your view that networking is unfair, because it totally is.",
+12,MISS,Claim,O,0.000,But I am going to challenge your view that it should be discouraged or eliminated.,
+12,MISS,Claim,O,0.000,"There are some exceptions, that justify regulation, such as environmental or fraud protection,",
+12,MISS,Claim,O,0.000,"I do n't think networking is one of them,",
+12,MISS,Claim,O,0.000,"The best way to do that is to hire people you 've worked with before, and you know are good, or people your colleagues and friends have worked with before, who you trust when they say that someone is good.",
+12,MISS,Claim,O,0.000,"Totally valid game theory, and well-articulated!",
+12,SPURIOUS,O,Premise,0.000,,"I recognize and appreciate that it is difficult in most employment processes to find individuals who are trustworthy, socially apt, etc."
+12,SPURIOUS,O,Premise,0.000,,"Networking, as a practice, favors individuals who come from already socially favorable situations, moreso than other evaluation criteria."
+12,SPURIOUS,O,Premise,0.000,,"there are other unfair advantages an applicant might have ( being tall, white, male, etc.)."
+12,SPURIOUS,O,Premise,0.000,,"If a hiring process takes networking into account, it is necessarily showing preference to individuals who already come from advantaged background, as per 2."
+12,SPURIOUS,O,Premise,0.000,,"`` this is how the world works, '' and many feel at ease participating in networking events without any moral qualms"
+12,SPURIOUS,O,Premise,0.000,,"I 'm not going to challenge your view that networking is unfair, because it totally is."
+12,SPURIOUS,O,Premise,0.000,,But I am going to challenge your view that it should be discouraged or eliminated.
+12,SPURIOUS,O,Premise,0.000,,"There are some exceptions, that justify regulation, such as environmental or fraud protection, I do n't think networking is one of them,"
+12,SPURIOUS,O,Premise,0.000,,"The best way to do that is to hire people you 've worked with before, and you know are good, or people your colleagues and friends have worked with before, who you trust when they say that someone is good."
+12,SPURIOUS,O,Premise,0.000,,"Totally valid game theory, and well-articulated!"
+13,MATCH,Claim,Claim,1.000,Raising the relative retirement age on the basis of the physical fitness of the average citizen is fair.,Raising the relative retirement age on the basis of the physical fitness of the average citizen is fair.
+13,MATCH,Claim,Claim,1.000,Yet no one should be required to work for more than 40 years.,Yet no one should be required to work for more than 40 years.
+13,MATCH,Premise,Premise,1.000,Thus social security and pension costs are increasing.,Thus social security and pension costs are increasing.
+13,MISS,Premise,O,0.000,"Germany 's aging society is undergoing demographic change,",
+13,MISS,Premise,O,0.000,and the age of those who are physically and mentally fit is increasing steadily.,
+13,SPURIOUS,O,Premise,0.000,,"Germany 's aging society is undergoing demographic change, and the age of those who are physically and mentally fit is increasing steadily."
+14,MATCH,Premise,Premise,1.000,and surely you 'll want to be speeding a lot with that beauty.,and surely you 'll want to be speeding a lot with that beauty.
+14,MATCH,Premise,Premise,1.000,"The steering system may still need a bit of tweaking, as the car jack-knifes at higher speeds,","The steering system may still need a bit of tweaking, as the car jack-knifes at higher speeds,"
+14,MISS,Claim,O,0.000,The prototype of Audi 's new sports car has car lovers raving.,
+14,MISS,Premise,O,0.000,But aside from that the car caters to pretty much every wish.,
+14,SPURIOUS,O,Premise,0.000,,The prototype of Audi 's new sports car has car lovers raving.
+14,SPURIOUS,O,Claim,0.000,,But aside from that the car caters to pretty much every wish.
+15,MATCH,Premise,Premise,1.000,I find meat disgusting based on what I 've seen and want no part of endorsing it whether it makes any difference overall or not.,I find meat disgusting based on what I 've seen and want no part of endorsing it whether it makes any difference overall or not.
+15,MATCH,Premise,Premise,1.000,"I would n't buy ivory, dog leather or fur for the same reasons","I would n't buy ivory, dog leather or fur for the same reasons"
+15,MATCH,Premise,Premise,1.000,What 's the point?,What 's the point?
+15,MATCH,Premise,Premise,1.000,"I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values.","I used to follow option number 3, but recently started option number 1 in an attempt to line my actions up with my values."
+15,MATCH,Claim,Claim,1.000,The options are as follows,The options are as follows
+15,MISS,Claim,O,0.000,1. You do n't agree with what is going on and stop supporting it.,
+15,MISS,Claim,O,0.000,"2. You do n't care about animals, so you 're content with paying for them to be abused for your pleasure.",
+15,MISS,Claim,O,0.000,"3. You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it.",
+15,MISS,Claim,O,0.000,I suspect this way of looking at it is still somewhat simplistic however,
+15,MISS,Premise,O,0.000,As in never buying meat again,
+15,MISS,Premise,O,0.000,even as you know that doing so will not have any impact on the meat industry whatsoever,
+15,MISS,Premise,O,0.000,wo n't make even an ounce of difference in the lives of animals?,
+15,MISS,Claim,O,0.000,"If I stop eating meat today, it wo n't make any difference whatsoever and wo n't save even a single animal 's life.",
+15,MISS,Claim,O,0.000,The only way to make real change in industries like this is to organize and participate in a boycott on a wide-scale level,
+15,MISS,Claim,O,0.000,to petition the government to make regulation changes.,
+15,SPURIOUS,O,Premise,0.000,,1. You do n't agree with what is going on and stop supporting it.
+15,SPURIOUS,O,Premise,0.000,,"2. You do n't care about animals, so you 're content with paying for them to be abused for your pleasure."
+15,SPURIOUS,O,Premise,0.000,,"3. You do n't agree with what is going on, but try to put it to the back of your mind and continue to support it."
+15,SPURIOUS,O,Premise,0.000,,I suspect this way of looking at it is still somewhat simplistic however
+15,SPURIOUS,O,Premise,0.000,,As in never buying meat again even as you know that doing so will not have any impact on the meat industry whatsoever wo n't make even an ounce of difference in the lives of animals?
+15,SPURIOUS,O,Premise,0.000,,"If I stop eating meat today, it wo n't make any difference whatsoever and wo n't save even a single animal 's life."
+15,SPURIOUS,O,Premise,0.000,,The only way to make real change in industries like this is to organize and participate in a boycott on a wide-scale level to petition the government to make regulation changes.
+16,MATCH,Premise,Premise,1.000,"Besides, Jochen was given a parachute jump the other day as a gift,","Besides, Jochen was given a parachute jump the other day as a gift,"
+16,MATCH,Premise,Premise,1.000,"Yes, there is a certain risk to life.","Yes, there is a certain risk to life."
+16,MATCH,Claim,Claim,1.000,Tomorrow I will skydive for the first time in my life.,Tomorrow I will skydive for the first time in my life.
+16,MISS,Premise,O,0.000,But I want to experience this incredible moment of freedom that skydivers report time and again.,
+16,MISS,Premise,O,0.000,and it must n't be that this wannabe-adventurer has one up on me.,
+16,SPURIOUS,O,Claim,0.000,,But I want to experience this incredible moment of freedom that skydivers report time and again.
+16,SPURIOUS,O,Claim,0.000,,and it must n't be that this wannabe-adventurer has one up on me.
+17,MATCH,Claim,Claim,1.000,this view is supported by physics and what we know of it,this view is supported by physics and what we know of it
+17,MATCH,Claim,Claim,1.000,"just because there are pages you 've already read, or pages you have yet to read, does n't mean those pages do n't exist","just because there are pages you 've already read, or pages you have yet to read, does n't mean those pages do n't exist"
+17,MATCH,Claim,Claim,1.000,( 2) Attaining fame does n't matter and does n't truly make me `` immortal. '',( 2) Attaining fame does n't matter and does n't truly make me `` immortal. ''
+17,MATCH,Claim,Claim,1.000,then my life is still pointless and meaningless,then my life is still pointless and meaningless
+17,MATCH,Claim,Claim,1.000,Helping others does n't matter,Helping others does n't matter
+17,MATCH,Claim,Claim,1.000,"It makes no difference if I, a 23 year old, die now or live until I am 100 and die","It makes no difference if I, a 23 year old, die now or live until I am 100 and die"
+17,MATCH,Claim,Claim,1.000,Death is the great eraser,Death is the great eraser
+17,MATCH,Claim,Claim,1.000,life is ultimately meaningless and pointless,life is ultimately meaningless and pointless
+17,MISS,Premise,O,0.000,there is no afterlife,
+17,MISS,Premise,O,0.000,we die,
+17,MISS,Premise,O,0.000,"Living life is as irrational as reading a book that, after finished, is immediately erased from your memory",
+17,MISS,Premise,O,0.000,"It is comparable to that, too",
+17,MISS,Premise,O,0.000,"Either way, after my brief spark of existence I become nothingness",
+17,MISS,Premise,O,0.000,Not only do I remember nothing; I AM nothing,
+17,MISS,Premise,O,0.000,"To me, it is as if my life had never happened",
+17,MISS,Premise,O,0.000,Imagine the time before you were born,
+17,MISS,Premise,O,0.000,Of course not,
+17,MISS,Premise,O,0.000,You did n't exist,
+17,MISS,Premise,O,0.000,This is the state that we return to after death -- a state of nothingness similar to the state we were in before birth,
+17,MISS,Premise,O,0.000,"When I die, I return to this state after a brief period of consciousness",
+17,MISS,Premise,O,0.000,I return to it permanently,
+17,MISS,Premise,O,0.000,I might as well have never lived,
+17,MISS,Premise,O,0.000,They will die too,
+17,MISS,Premise,O,0.000,"And then their descendants will die, on and on and on",
+17,MISS,Premise,O,0.000,eventually the universe is destroyed or our galaxy collapses in an inevitable heat-death,
+17,MISS,Premise,O,0.000,"Even if 1,000,000 people were helped by me",
+17,MISS,Premise,O,0.000,assuming they all die,
+17,MISS,Premise,O,0.000,For I will be dead and wo n't know what I did,
+17,MISS,Premise,O,0.000,"once they die, they wo n't know either",
+17,MISS,Premise,O,0.000,"I 'll be dead, and again, death is nothingness",
+17,MISS,Premise,O,0.000,"Thus, I wo n't be around to enjoy my fame",
+17,MISS,Premise,O,0.000,Enjoying the moment is possible,
+17,MISS,Claim,O,0.000,does n't make life have a point,
+17,MISS,Premise,O,0.000,"once I die, all memories and all point is gone",
+17,MISS,Premise,O,0.000,Consider a novel,
+17,MISS,Premise,O,0.000,"As you read through the novel, you go from page to page, eventually reaching the end",
+17,MISS,Premise,O,0.000,`` Now '' is *the page you are reading at this moment*,
+17,MISS,Premise,O,0.000,"And all those pages will continue to exist, even after you 've finished your book",
+17,MISS,Premise,O,0.000,Time is n't `` real '' in the same sense that we experience it,
+17,MISS,Premise,O,0.000,"We are simply at one point along a path, and that 's the `` now ''",
+17,MISS,Premise,O,0.000,"All the other points in time exist as much as the current point in time, however",
+17,MISS,Premise,O,0.000,Let 's say I travel from home to the grocery store,
+17,MISS,Premise,O,0.000,"I leave my apartment, go down the elevator, out on the street, past the cigar shop, past the empty parking lot, and finally to the store",
+17,MISS,Premise,O,0.000,Of course not,
+17,SPURIOUS,O,Claim,0.000,,there is no afterlife
+17,SPURIOUS,O,Claim,0.000,,we die
+17,SPURIOUS,O,Claim,0.000,,"Living life is as irrational as reading a book that, after finished, is immediately erased from your memory"
+17,SPURIOUS,O,Claim,0.000,,"It is comparable to that, too"
+17,SPURIOUS,O,Claim,0.000,,"Either way, after my brief spark of existence I become nothingness"
+17,SPURIOUS,O,Claim,0.000,,Not only do I remember nothing; I AM nothing
+17,SPURIOUS,O,Claim,0.000,,"To me, it is as if my life had never happened"
+17,SPURIOUS,O,Claim,0.000,,Imagine the time before you were born
+17,SPURIOUS,O,Claim,0.000,,Of course not
+17,SPURIOUS,O,Claim,0.000,,You did n't exist
+17,SPURIOUS,O,Claim,0.000,,This is the state that we return to after death -- a state of nothingness similar to the state we were in before birth
+17,SPURIOUS,O,Claim,0.000,,"When I die, I return to this state after a brief period of consciousness"
+17,SPURIOUS,O,Claim,0.000,,I return to it permanently
+17,SPURIOUS,O,Claim,0.000,,I might as well have never lived
+17,SPURIOUS,O,Claim,0.000,,They will die too
+17,SPURIOUS,O,Claim,0.000,,"And then their descendants will die, on and on and on"
+17,SPURIOUS,O,Claim,0.000,,eventually the universe is destroyed or our galaxy collapses in an inevitable heat-death
+17,SPURIOUS,O,Claim,0.000,,"Even if 1,000,000 people were helped by me"
+17,SPURIOUS,O,Claim,0.000,,assuming they all die
+17,SPURIOUS,O,Claim,0.000,,For I will be dead and wo n't know what I did
+17,SPURIOUS,O,Claim,0.000,,"once they die, they wo n't know either"
+17,SPURIOUS,O,Claim,0.000,,"I 'll be dead, and again, death is nothingness"
+17,SPURIOUS,O,Claim,0.000,,"Thus, I wo n't be around to enjoy my fame"
+17,SPURIOUS,O,Claim,0.000,,Enjoying the moment is possible does n't make life have a point
+17,SPURIOUS,O,Claim,0.000,,"once I die, all memories and all point is gone"
+17,SPURIOUS,O,Claim,0.000,,Consider a novel
+17,SPURIOUS,O,Claim,0.000,,"As you read through the novel, you go from page to page, eventually reaching the end"
+17,SPURIOUS,O,Claim,0.000,,`` Now '' is *the page you are reading at this moment*
+17,SPURIOUS,O,Claim,0.000,,"And all those pages will continue to exist, even after you 've finished your book"
+17,SPURIOUS,O,Claim,0.000,,Time is n't `` real '' in the same sense that we experience it
+17,SPURIOUS,O,Claim,0.000,,"We are simply at one point along a path, and that 's the `` now ''"
+17,SPURIOUS,O,Claim,0.000,,"All the other points in time exist as much as the current point in time, however"
+17,SPURIOUS,O,Claim,0.000,,Let 's say I travel from home to the grocery store
+17,SPURIOUS,O,Claim,0.000,,"I leave my apartment, go down the elevator, out on the street, past the cigar shop, past the empty parking lot, and finally to the store"
+17,SPURIOUS,O,Claim,0.000,,Of course not
+18,MATCH,Premise,Premise,1.000,Nevertheless one has to point out that there 'd probably be way fewer stations if it weren’t the whole of Germany that’s obliged to pay.,Nevertheless one has to point out that there 'd probably be way fewer stations if it weren’t the whole of Germany that’s obliged to pay.
+18,MATCH,Premise,Premise,1.000,so there 's no advantage for the current paying viewers of the public broadcasters.,so there 's no advantage for the current paying viewers of the public broadcasters.
+18,MATCH,Premise,Premise,1.000,"By now you have advertising on all channels,","By now you have advertising on all channels,"
+18,MATCH,Claim,Claim,1.000,"Considering what 's on television these days, it would be appropriate to only have those people pay who actually ( want to) follow the programming.","Considering what 's on television these days, it would be appropriate to only have those people pay who actually ( want to) follow the programming."
+18,MISS,Premise,O,0.000,"In some cases there are only shows for older generations on at prime times, so why then should everyone pay for this?",
+18,MISS,Premise,O,0.000,"That should n't be an issue though, given the sheer number of programmes and stations that essentially show the same things anyway.",
+18,SPURIOUS,O,Premise,0.000,,"In some cases there are only shows for older generations on at prime times,"
+18,SPURIOUS,O,Claim,0.000,,so why then should everyone pay for this?
+18,SPURIOUS,O,Claim,0.000,,"That should n't be an issue though,"
+18,SPURIOUS,O,Premise,0.000,,given the sheer number of programmes and stations that essentially show the same things anyway.
+19,MATCH,Claim,Claim,1.000,I sort of agree with you.,I sort of agree with you.
+19,MATCH,Premise,Premise,1.000,I got the idea about `` being around negative thinking will affect you negatively '' from the book `` Directional Thinking '' by Benjamin Chapin.,I got the idea about `` being around negative thinking will affect you negatively '' from the book `` Directional Thinking '' by Benjamin Chapin.
+19,MATCH,Claim,Claim,1.000,"Surrounding yourself with this will in general make you into a more pessimistic, negative and possibly depressive person.","Surrounding yourself with this will in general make you into a more pessimistic, negative and possibly depressive person."
+19,MATCH,Claim,Claim,1.000,"Thinking that you are unaffected by this does n't necessarily mean you are, but instead means that you are unaware of how much it affects you.","Thinking that you are unaffected by this does n't necessarily mean you are, but instead means that you are unaware of how much it affects you."
+19,MATCH,Claim,Claim,1.000,"Surrounding yourself with this will in general make you into a more pessimistic, negative and possibly depressive person.","Surrounding yourself with this will in general make you into a more pessimistic, negative and possibly depressive person."
+19,MATCH,Premise,Premise,1.000,It will reach conspiracy theory levels of `` proof '' where people will simply believe it because they feel as if they are a part of a group-effort that 's uncovering something.,It will reach conspiracy theory levels of `` proof '' where people will simply believe it because they feel as if they are a part of a group-effort that 's uncovering something.
+19,MATCH,Premise,Premise,1.000,On boards you will find echo chambers where people are more prone to believe rumors than proof,On boards you will find echo chambers where people are more prone to believe rumors than proof
+19,MATCH,Premise,Premise,0.808,ideas about them or things will get taken out of context and it will be posted continually until it 's taken as fact,Things about e-celebrities will start as rumors ideas about them or things will get taken out of context and it will be posted continually until it 's taken as fact
+19,MATCH,Premise,Premise,0.806,since it 's largely negative they will stoop down to the same level rather than go to any high ground since they are not linked to an identity,They will care about how people respond to them since it 's largely negative they will stoop down to the same level rather than go to any high ground since they are not linked to an identity
+19,MISS,Premise,O,0.000,"Because of the anonymity on 4chan people are more prone to not think through, care about what they post and are quicker to throw out insults.",
+19,MISS,Premise,O,0.000,They will care about how people respond to them,
+19,MISS,Premise,O,0.000,Surrounding the entire site there 's a general pessimistic group mentality,
+19,MISS,Premise,O,0.000,people are subconsciously encouraged to take part of it in order to feel like they are a part of the group,
+19,MISS,Premise,O,0.000,"Some boards will have specific groups of people who they are encouraged to hate, women, SJWs, casual gamers, Jews",
+19,MISS,Premise,O,0.000,any reasonable argument against a poster can be made redundant by saying or thinking they are a part of these agendas or groups,
+19,MISS,Premise,O,0.000,Things about e-celebrities will start as rumors,
+19,MISS,Claim,O,0.000,I 'm not saying that every person who browses 4chan is depressed or negative,
+19,MISS,Claim,O,0.000,that the majority of them are affected negatively by browsing the site,
+19,MISS,Claim,O,0.000,I 'm not saying that every person who browses 4chan is depressed or negative,
+19,MISS,Claim,O,0.000,that the majority of them are affected negatively by browsing the site,
+19,SPURIOUS,O,Claim,0.000,,"Because of the anonymity on 4chan people are more prone to not think through, care about what they post and are quicker to throw out insults."
+19,SPURIOUS,O,Premise,0.000,,Surrounding the entire site there 's a general pessimistic group mentality people are subconsciously encouraged to take part of it in order to feel like they are a part of the group
+19,SPURIOUS,O,Premise,0.000,,"Some boards will have specific groups of people who they are encouraged to hate, women, SJWs, casual gamers, Jews any reasonable argument against a poster can be made redundant by saying or thinking they are a part of these agendas or groups"
+19,SPURIOUS,O,Claim,0.000,,I 'm not saying that every person who browses 4chan is depressed or negative that the majority of them are affected negatively by browsing the site
+19,SPURIOUS,O,Claim,0.000,,I 'm not saying that every person who browses 4chan is depressed or negative that the majority of them are affected negatively by browsing the site

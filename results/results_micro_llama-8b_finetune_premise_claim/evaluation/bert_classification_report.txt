@@ -1,0 +1,15 @@
+              precision    recall  f1-score   support
+
+       Claim      0.625     0.261     0.368       134
+     Premise      0.522     0.469     0.494       177
+           O      0.000     0.000     0.000        97
+
+    accuracy                          0.289       408
+   macro avg      0.382     0.243     0.287       408
+weighted avg      0.432     0.289     0.335       408
+
+
+Labels: Claim, Premise, O
+[[35,  0, 99],
+ [ 0, 83, 94],
+ [21, 76,  0]]

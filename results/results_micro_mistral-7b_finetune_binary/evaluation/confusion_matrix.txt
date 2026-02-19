@@ -1,0 +1,4 @@
+Labels: Implicit, Explicit, O
+[[ 49,   0,  69],
+ [  0,  68, 125],
+ [227,  61,   0]]

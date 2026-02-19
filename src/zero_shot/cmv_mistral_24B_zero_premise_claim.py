@@ -12,7 +12,7 @@ from tqdm import tqdm
 from difflib import SequenceMatcher
 from sklearn.metrics import classification_report
 import nltk
-nltk.data.path.append("/path/to/nltk_data")
+nltk.data.path.append("/home/esvirido/nltk_data")
 from nltk.tokenize import word_tokenize, sent_tokenize
 from huggingface_hub import login
 from transformers import (
