@@ -1,10 +1,10 @@
-NAME="mistral_7b_micro_finetune_finegrained"
-PROJECT_NAME="test"
+NAME="job_name"
+PROJECT_NAME="project_name"
 HOME="/home/user"
-PROJECT_DIR="$HOME/phd/test"
+PROJECT_DIR="/path/to/your/project"
 EMAIL="user@example.com"
 LOGDIR="$HOME/logs"
-export HUGGINGFACE_HUB_TOKEN=$(cat /home/user/.huggingface/token)
+export HUGGINGFACE_HUB_TOKEN="your_token_here"
 
 # Make sure the log directory exists
 mkdir -p "$LOGDIR"
@@ -15,9 +15,9 @@ OUTPUT_DIR="7B_Mistral_Llama/results_micro_mistral-7b_finetune_finegrained"
 DATA_DIR="data/jsonl/combined_finegrained"
 
 W_HOURS=10                 # Walltime in hours
-L_NGPUS=1                  # Number of GPUs (1 is sufficient with LoRA + quantization)
+L_NGPUS=1                  # Number of GPUs 
 P_MINCUDACAPABILITY=7      # Minimum compute capability
-P_MINGPUMEMORY=24000       # Minimum GPU memory in MB (24 GB should be enough)
+P_MINGPUMEMORY=24000       # Minimum GPU memory in MB 
 
 # Submit the job
 OAR_OUT=$(oarsub \
@@ -30,7 +30,7 @@ OAR_OUT=$(oarsub \
     --notify "[ERROR,INFO]mail:$EMAIL" \
     "export HUGGINGFACE_HUB_TOKEN=$HUGGINGFACE_HUB_TOKEN; \
      module load conda; \
-     source /home/user/miniconda3/bin/activate /home/user/miniconda3/envs/llm-env; \
+     source /path/to/miniconda3/bin/activate /path/to/your/env; \
      
      echo 'Starting Mistral 7B fine-tuning...'; \
      python3 src/training/mistral_7B_llama_8B_finetune_finegrained.py \
