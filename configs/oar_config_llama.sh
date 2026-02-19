@@ -11,7 +11,7 @@ mkdir -p "$LOGDIR"
 
 # LLaMA 8B specific directories
 MODEL_NAME="llama-8b"
-OUTPUT_DIR="7B_Mistral_Llama/results_micro_llama-8b_finetune_finegrained"
+OUTPUT_DIR="results/results_combined_llama-8b_finetune_finegrained"
 DATA_DIR="data/jsonl/combined_finegrained"
 
 W_HOURS=10                 # Walltime in hours

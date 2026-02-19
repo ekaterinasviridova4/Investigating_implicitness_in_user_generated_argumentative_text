@@ -143,10 +143,10 @@ def parse_args():
                        default='../../data/jsonl/combined_finegrained',
                        help='Directory with train.jsonl, dev.jsonl, test.jsonl')
     parser.add_argument('--output_dir', type=str,
-                       default='../../results/mistral_24B_finetune_finegrained',
+                       default='../../results/results_cmv_finetune_finegrained',
                        help='Directory to save model and logs')
     parser.add_argument("--pred_dir", type=str,
-                        default="../../results/mistral_24B_finetune_finegrained",
+                        default="../../results/results_cmv_finetune_finegrained",
                         help="Directory to save predictions and reports")
     # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
     #                     default=20,

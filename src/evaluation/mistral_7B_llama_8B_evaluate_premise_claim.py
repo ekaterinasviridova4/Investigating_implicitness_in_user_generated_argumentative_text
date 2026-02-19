@@ -248,7 +248,7 @@ def main():
     
     # Auto-generate output directories 
     if args.output_dir is None:
-        args.output_dir = f"results_{args.model_name}_finetune_premise_claim"
+        args.output_dir = f"results_cmv_{args.model_name}_finetune_premise_claim"
     if args.pred_dir is None:
         args.pred_dir = args.output_dir
         

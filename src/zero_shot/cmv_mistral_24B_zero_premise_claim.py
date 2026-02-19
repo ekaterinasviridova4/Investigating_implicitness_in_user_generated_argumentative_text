@@ -50,7 +50,7 @@ def parse_args():
                        default='../../data/conll/cmv_premise_claim.conll',
                        help='Path to the input CONLL file')
     parser.add_argument('--output_dir', type=str,
-                       default='../../results/cmv_mistral_24B_zero_premise_claim',
+                       default='../../results/results_cmv_zero_premise_claim',
                        help='Directory to save the results')
     # parser.add_argument('--limit', type=int, #to limit the number of examples for testing
     #                     default=None,

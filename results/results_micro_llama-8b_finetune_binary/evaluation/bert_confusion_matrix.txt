@@ -1,4 +1,0 @@
-Labels: Implicit, Explicit, O
-[[ 20,   0,  98],
- [  0, 159,  34],
- [ 16,  95,   0]]

@@ -1,5 +1,0 @@
-Documents compared: 20
-Total gold spans: 311
-Total pred spans: 215
-Exact matches (label + normalized text): 78
-Partial matches (label + Jaccard≥0.8): 105

@@ -11,7 +11,7 @@ mkdir -p "$LOGDIR"
 
 # Mistral 7B specific directories
 MODEL_NAME="mistral-7b"
-OUTPUT_DIR="7B_Mistral_Llama/results_micro_mistral-7b_finetune_finegrained"
+OUTPUT_DIR="results/results_combined_mistral-7b_finetune_finegrained"
 DATA_DIR="data/jsonl/combined_finegrained"
 
 W_HOURS=10                 # Walltime in hours
