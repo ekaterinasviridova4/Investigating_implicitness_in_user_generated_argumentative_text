@@ -1,0 +1,30 @@
+# Python >= 3.10 recommended
+# CUDA 11.8 or 12.1 recommended for PyTorch
+
+# Core LLM Libraries
+transformers>=4.57.0 
+torch>=2.0.0
+accelerate>=0.21.0
+peft>=0.4.0
+bitsandbytes>=0.40.0
+datasets>=2.14.0
+
+# Mistral Specific
+mistral-common>=1.6.2
+
+# Evaluation & Metrics
+scikit-learn
+evaluate
+seqeval
+sentence-transformers
+nltk
+pandas
+numpy
+
+# Utilities
+huggingface_hub
+wandb
+tqdm
+scipy
+sentencepiece
+packaging
