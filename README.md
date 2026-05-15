@@ -67,3 +67,14 @@ Contains configuration scripts for running experiments on high-performance clust
 
 Sviridova E, Cabrio E, Villata S. Is There Anything More Deceptive Than an Obvious Fact? Investigating Implicitness in User-Generated Argumentative Text. In: Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026). ELRA Language Resources Association (ELRA); 2026. p. 8303–8316.
 
+```bibtex
+@inproceedings{sviridova-etal-2026-deceptive,
+  title     = {Is There Anything More Deceptive Than an Obvious Fact? Investigating Implicitness in User-Generated Argumentative Text},
+  author    = {Sviridova, Ekaterina and Cabrio, Elena and Villata, Serena},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  pages     = {8303--8316},
+  publisher = {ELRA Language Resources Association (ELRA)},
+  year      = {2026}
+}
+```
+
