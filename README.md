@@ -65,3 +65,5 @@ Contains configuration scripts for running experiments on high-performance clust
 
 ## Cite us
 
+Sviridova E, Cabrio E, Villata S. Is There Anything More Deceptive Than an Obvious Fact? Investigating Implicitness in User-Generated Argumentative Text. In: Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026). ELRA Language Resources Association (ELRA); 2026. p. 8303–8316.
+
